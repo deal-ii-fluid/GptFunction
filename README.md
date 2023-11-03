@@ -77,7 +77,7 @@ messages.append({"role": "function", "name": function_name, "content": json.dump
 在每次与 GPT 进行交互后，检查响应中的 `finish_reason` 来确定对话是否应该结束。
 
 ```python
-finish_reason = response['data']['choices'][0]['finish_reason']
+finish_reason = response['choices'][0]['finish_reason']
 ```
 
 #### 2. 结束对话或继续交互
