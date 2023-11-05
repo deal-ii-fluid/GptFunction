@@ -1,0 +1,5320 @@
+commit ee8556c09f373f214050729d8aba9e9be855152e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Nov 1 00:26:34 2023 -0700
+
+    Check for potential duplicates for Github issues
+
+commit ac71e200451bc7ebce26e9e986b95eed22b91fc2
+Merge: ed91fc58 4a9d472f
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 31 21:46:20 2023 -0700
+
+    Merge pull request #699 from InterwebAlchemy/feature/automated-formatting
+    
+    Proposal: Enforce consistent code style with black, isort, and pre-commit
+
+commit ed91fc58dd9f662f00d34c68f2c942ffe114de7b
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 31 21:46:05 2023 -0700
+
+    Added `pre-commit install` instructions
+
+commit 4a9d472fe645418bb8035900f582a643f6fb0a7a
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Mon Oct 30 12:48:47 2023 -0400
+
+    chore: ignore second reformatting commit
+
+commit b6fac19ce47b0f16211948b907d8b3c55dcee985
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Mon Oct 30 12:48:07 2023 -0400
+
+    chore: rerun black and isort after rebase and merge conflict resulution
+
+commit c59f860092322f0e7a9cc3c83ac762f66a87dba8
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Mon Oct 30 12:44:38 2023 -0400
+
+    chore: add note about no-verify
+
+commit 133f95852a9ec599683a0997b8bffc14f4fbfb7c
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Wed Oct 25 23:15:20 2023 -0400
+
+    chore: add note about formatting to Contributing docs
+
+commit c17bd88d3c0b64aaf2c1fc97e2c8c5f387520566
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Wed Oct 25 23:04:18 2023 -0400
+
+    chore: don't break git blame with code formatting update
+
+commit 110cc535617ef6d9deca28c61166eed883a904c9
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Wed Oct 25 23:03:16 2023 -0400
+
+    chore: migrate code style to Black and isort
+
+commit fbbda40804e744e5a0d89b72e953f24c2ce67a0a
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Wed Oct 25 22:32:15 2023 -0400
+
+    chore: add black, isort, and pre-commit
+
+commit 728492a4708f6f7bbef350f1eb0a176bb8a090b4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 21:04:11 2023 -0700
+
+    Removed `poetry.lock`
+
+commit 138cacce6507e9902b795ea1bcd12c4efe369275
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 21:01:55 2023 -0700
+
+    Accounting for `poetry.lock` ignore
+
+commit a64cdc39b6dba4e68556c1baef87c4b38fe1420b
+Merge: 7d7a884a 184e4c07
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 20:42:33 2023 -0700
+
+    Merge pull request #694 from InterwebAlchemy/feature/tokens-updates
+    
+    fix: clarify that %tokens estimates token usage for next request
+
+commit 7d7a884a03d7461be9c29635c7801177f52f280b
+Merge: 0ea271c0 8f4d6a4d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 20:29:05 2023 -0700
+
+    Merge pull request #695 from InterwebAlchemy/feature/magic-commands-docs
+    
+    docs: fix markdown formatting; better explain %tokens
+
+commit 0ea271c05a683f5dc00c7a722517464766118486
+Merge: a0c6c319 2a42c2a2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 19:36:23 2023 -0700
+
+    Merge pull request #522 from cowile/gnu_readline_support
+    
+    Fix GNU readline support for user input
+
+commit a0c6c319eb67234c92d627f0d52e6d7287b2af40
+Merge: 1992e6da 7eb4a67c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 19:29:26 2023 -0700
+
+    Merge pull request #703 from InterwebAlchemy/feature/html-entities
+    
+    fix: make all local models run through the html entity buffer
+
+commit 1992e6da9718c6dd18c200cef0dcb18fc03a0b7e
+Merge: 50b3631f 9ac40157
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 19:24:54 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 50b3631f4454a8beaf205a0260ae23fb001d97bf
+Merge: 213a1c14 d588a1d4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 19:24:42 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 9ac40157b93c3bb73078c92dd3f3c2e6816fc6fa
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 19:24:04 2023 -0700
+
+    Ignore poetry.lock
+
+commit 213a1c143c3eec506b3140651be73a581cf54266
+Merge: 42c31768 c28b2f9b
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 19:18:47 2023 -0700
+
+    Merge branch 'feature/clean-up-dependencies' of https://github.com/InterwebAlchemy/open-interpreter
+
+commit d588a1d46fdaa39d0d136865c14db7900e440cce
+Merge: 286228d3 a1660952
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 29 19:06:09 2023 -0700
+
+    Merge pull request #709 from InterwebAlchemy/feature/safe-mode-docs
+    
+    chore: add better docs for safe_mode; load semgrep if available
+
+commit 286228d324e81d18e8ef535df090bf3cf4236a0e
+Merge: 42c31768 7fb6399d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Oct 28 00:07:37 2023 -0700
+
+    Merge pull request #710 from InterwebAlchemy/feature/temp-0
+    
+    fix: default to 0 if temperature is unset
+
+commit 7fb6399d7afd2b666c100bfcbef1c9a19a2cf36f
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Fri Oct 27 15:17:53 2023 -0400
+
+    fix: default to 0 if temperature is unset
+
+commit a166095281d3b79c19de05ebc63f11fb71c8c8df
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Thu Oct 26 16:49:51 2023 -0400
+
+    chore: add better docs for safe_mode; load semgrep if available
+
+commit 8f4d6a4dafe7a09a5bd4a4cb57d26f633d7848cc
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Wed Oct 25 10:53:16 2023 -0400
+
+    docs: fix markdown formatting; better explain %tokens
+
+commit 184e4c074fb07737ec5999f21e2eddf60682b628
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Wed Oct 25 10:39:17 2023 -0400
+
+    fix: clarify that %tokens estimates token usage for next request
+
+commit 42c31768835cc71519b7c2e0a819c744d817ea61
+Merge: 7f8867f7 cf945d2e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Oct 27 01:29:56 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 7f8867f7878703fed617dd7f1a4fa4fc131068fd
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Oct 27 01:29:48 2023 -0700
+
+    run_code -> execute (function name)
+
+commit cf945d2e8a99522f8798112ae159ebe9624a0dd5
+Merge: 8424de33 43f0e446
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Oct 26 14:48:03 2023 -0700
+
+    Merge pull request #690 from Maclean-D/main
+    
+    Update README.md to say Mistral 7B
+
+commit 8424de3331d3a28d2f50d8e33a00bbd3f59d01dc
+Merge: 10d5e3e4 f6630500
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Oct 26 14:24:04 2023 -0700
+
+    Merge pull request #705 from InterwebAlchemy/feature/safe_mode_fix
+    
+    fix: make sure safe_mode is disabled by default
+
+commit f6630500452d22a02896decf1d551ded3857c25e
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Thu Oct 26 16:31:37 2023 -0400
+
+    fix: make sure safe_mode is disabled by default
+
+commit c28b2f9b0047bd4270175a788ac7eca011f2be4e
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Thu Oct 26 15:20:48 2023 -0400
+
+    chore: remove chroma package; clean up dependency list
+
+commit 7eb4a67cc8fc703adf6799ff60af8a27da181b28
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Thu Oct 26 14:16:37 2023 -0400
+
+    fix: make all local models run through the html entity buffer
+    
+    This removes the mistral condition for running through the html entity buffer resolution.
+    
+    Fixes #697
+
+commit 43f0e446beb4c9a9871927390013875b9102fded
+Author: Maclean Dunkin <65423362+Maclean-D@users.noreply.github.com>
+Date:   Wed Oct 25 00:24:32 2023 -0700
+
+    Update README.md
+
+commit 10d5e3e4d140193c9b4f29d5f9ba006f18ac4cfe
+Merge: 2919e781 d4e56b0b
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 21:01:49 2023 -0700
+
+    Merge pull request #674 from shruti222patel/patch-1
+    
+    Clarity updates to README.md
+
+commit 2919e78143611b5478c42eeda6af9461aa7a5e75
+Merge: 5ff69809 e5ffc54a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 21:01:40 2023 -0700
+
+    Merge pull request #472 from ihgalis/patch-6
+    
+    Update README.md with ref to MACOS.md
+
+commit 5ff69809b4fd5bd51bc7a04c6346c7c86d4398aa
+Merge: 09494613 74a31882
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 21:01:07 2023 -0700
+
+    Merge pull request #471 from ihgalis/patch-5
+    
+    Update MACOS.md
+
+commit 094946134b49ce8c75c4d01248883862741ce1f3
+Merge: dcd77ba4 87099780
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 20:59:43 2023 -0700
+
+    Merge pull request #658 from suravshresth/patch1
+    
+    docs: fix typo in docs/WINDOWS.md
+
+commit d4e56b0bddaa45b4170f5606b6b772c784c31393
+Merge: b8fcac15 dcd77ba4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 20:58:21 2023 -0700
+
+    Merge branch 'main' into patch-1
+
+commit dcd77ba4b17a36b8d01cdb2c444761e540908ce8
+Merge: ece546fc 77f40edb
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 20:56:53 2023 -0700
+
+    Merge pull request #677 from Shivam250702/main
+    
+    Update README.md
+
+commit ece546fcd257cee2f9d61e62565281b575f2a641
+Merge: c668b86e 1ba185d3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 20:54:25 2023 -0700
+
+    Merge pull request #680 from Notnaton/language-fix
+    
+    Remove space from language
+
+commit c668b86e42343897bc04a34fd0c293abe684217c
+Merge: 06d71438 3063f86f
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 20:51:53 2023 -0700
+
+    Merge pull request #682 from Notnaton/hide-api-key
+    
+    Consider hiding the api-key
+
+commit 06d71438b18c1c8de2ba7f0416b87131683d900a
+Merge: 288af12c cc15eab4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 20:50:25 2023 -0700
+
+    Merge pull request #687 from shubhexists/main
+    
+    Fixed Issue #661
+
+commit 288af12cdffa037a7e1c9fbbca17e0ec1b45604b
+Merge: c9c6755e ef9cf62d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 20:47:02 2023 -0700
+
+    Merge pull request #683 from Cobular/fix_halucinated_function
+    
+    Fixed issue with 3.5 Models hallucinating a function called "python", causing empty returns
+
+commit c9c6755e1fb9ca6d93165288c646244ce05a160e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 24 18:22:22 2023 -0700
+
+    Removed link from README.md
+
+commit 1ba185d3408f6e1e2d81a5ec105ec6d7467d4d58
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Tue Oct 24 20:57:54 2023 +0200
+
+    Final fix
+
+commit cc15eab4df0ecb1917b18de36e93700f1e4d57c2
+Author: Shubham Singh <shubh622005@gmail.com>
+Date:   Tue Oct 24 23:30:16 2023 +0530
+
+    Fixed #661
+
+commit 27e2d0788fb81413f89197e413516d2ab1cd4cd4
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Tue Oct 24 17:41:52 2023 +0200
+
+    Let the LLM know "language" is not supported
+
+commit 8ca8309a60aa5a737e09e674849afe2ee5a7551c
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Tue Oct 24 17:02:22 2023 +0200
+
+    Added print error and break out of the code runner
+    
+    I'm not sure how to give feedback back to Open-interpreter.
+
+commit ef9cf62ddd3fea7f6d60c70accfa2b396568598d
+Author: cobular <22972550+Cobular@users.noreply.github.com>
+Date:   Mon Oct 23 13:37:02 2023 -0700
+
+    Don't break the default case
+
+commit 935720ea908f81864807db6d37fa03ce723818ab
+Author: cobular <22972550+Cobular@users.noreply.github.com>
+Date:   Mon Oct 23 13:00:20 2023 -0700
+
+    Fixed issue with 3.5 Models halucinating a funciton called "python".
+    
+    I've found open-interpreter to be consistently running into the issue described here: https://community.openai.com/t/function-calling-a-python-function-is-frequently-called-even-though-it-does-not-exist-in-the-functions-parameter/264481/1, where 3.5 turbo frequently halucinates a fake funciton, and there's not much to do about that. I've added the ability to just process that function, if it's called.
+
+commit 3063f86f5a44e1d5d58fc80899df72e8d21817a0
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Mon Oct 23 21:26:14 2023 +0200
+
+    Consider hiding the api-key
+    
+    Some people share screenshots with their API key visible.
+    
+    Using getpass to hide the key should be considered
+
+commit 96484cb4b428f324ae7e35621a0634eea8aa1cea
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Mon Oct 23 20:46:42 2023 +0200
+
+    Fix typo
+    
+    Fix typo
+
+commit 6ff23c37b649ed96cbb37989290281d5aa1534c4
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Mon Oct 23 20:42:16 2023 +0200
+
+    Checking if language in language_map
+
+commit a59706a6fa7cddcb5e6b9d0844ea19df61262caa
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Mon Oct 23 20:25:13 2023 +0200
+
+    Make sure no spaces or other symbols in language
+
+commit f180c5fb4dead79e27be7ad889e78e785d7e1663
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Mon Oct 23 17:08:53 2023 +0200
+
+    Remove space from language
+    
+    https://discord.com/channels/1146610656779440188/1164496324591353946/1164496324591353946
+    
+    The LLM might have put a space between code block start and language: "``` python ".
+    Added Error handling to get better error messages.
+
+commit b451305a5d49f2451e3d506423697002dabd666e
+Merge: fdf0af3b eeb86c6b
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 22 17:43:50 2023 -0700
+
+    Merge pull request #676 from Notnaton/procedures-fix
+    
+    Fix a crash in get_relevant_procedures_string
+
+commit 77f40edb295607d6643502ae99ad6baeda42482a
+Author: Shivam Singh <103785990+Shivam250702@users.noreply.github.com>
+Date:   Sun Oct 22 18:48:32 2023 +0530
+
+    Update README.md
+    
+    removed grammatical errors
+
+commit eeb86c6bb83c9d3353be7d513d59f73247963667
+Author: Anton Solbjørg <4324290+Notnaton@users.noreply.github.com>
+Date:   Sun Oct 22 13:36:06 2023 +0200
+
+    Update get_relevant_procedures_string.py
+
+commit b8fcac153cd6f6a991f87075fd0aaf33ee9aef07
+Author: Shruti Patel <shruti222patel@users.noreply.github.com>
+Date:   Sun Oct 22 01:08:20 2023 -0400
+
+    Clarity updates to README.md
+
+commit 87099780a04be05ef6d32f5908be7517b85f19bd
+Author: Surav Shrestha <surav313@gmail.com>
+Date:   Thu Oct 19 10:12:21 2023 +0545
+
+    docs: fix typo in docs/WINDOWS.md
+
+commit fdf0af3b284609a0c9276f02f25e0903e6f9cd7d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 18 18:10:40 2023 -0700
+
+    Fixed end_of_message and end_of_code flags
+
+commit ab5259d52fd24d5157d4328c7a6eee245be90bb6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 18 18:05:45 2023 -0700
+
+    Made semgrep optional, updated packages, pinned LiteLLM
+
+commit 63b3c27ec1af34045aea60f80af55face32708bd
+Merge: 93df2add 8813d269
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 18 12:40:20 2023 -0700
+
+    Merge pull request #648 from smwyzi/main
+
+commit 8813d2693ad751702d43982ce0811b22f4630331
+Author: chenpeng08 <chenpeng08@baidu.com>
+Date:   Tue Oct 17 10:04:50 2023 +0800
+
+    Fix indentation in language_map.py
+
+commit 93df2addf0b96ed508508f740a4354a7fc6ee376
+Merge: fd45f6cd 8724240f
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Oct 16 14:43:01 2023 -0700
+
+    Merge pull request #632 from eltociear/patch-2
+    
+    Fix typo in setup_text_llm.py
+
+commit fd45f6cd1698abc62258f77114eac281ced4f5f4
+Merge: 7fb99e51 b5ac2395
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 15 21:26:37 2023 -0700
+
+    Merge pull request #643 from leifktaylor/leifktaylor-patch-1
+
+commit 7fb99e516ef22c4ce09daaed43ae332311d9d0e0
+Merge: f52e83be 8a3402c1
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 15 21:26:02 2023 -0700
+
+    Merge pull request #642 from jamiew/main
+
+commit b5ac2395f60ef0af9696294d1ca0d99d92dfe773
+Author: Leif Taylor <leiftaylor@gmail.com>
+Date:   Sun Oct 15 18:48:42 2023 -0400
+
+    Update python.py
+    
+    More robust handling.
+
+commit 50aede222208269ef63a847b706fe26646351537
+Author: Leif Taylor <leiftaylor@gmail.com>
+Date:   Sun Oct 15 18:36:21 2023 -0400
+
+    Update python.py
+    
+    Resolves issue: https://github.com/KillianLucas/open-interpreter/issues/635
+
+commit 8a3402c16fdcd21d937a0f28c338bd344f2f40ab
+Author: Jamie Dubs <jamie@jamiedubs.com>
+Date:   Sun Oct 15 13:22:46 2023 -0400
+
+    Fix "depracated" typo
+
+commit f52e83bec2f445e8669b08afd464e540ef1aab9a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Oct 14 09:37:55 2023 -0700
+
+    Thank you hackathon participants!
+
+commit c32a5ed8fd829700999b37b12a2f271cd6f6bd4a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Oct 13 14:29:14 2023 -0700
+
+    Join the hackathon! https://lablab.ai/event/open-interpreter-hackathon
+
+commit 1b8a42a7654c2d33905a1ad9b672f6eb6c14d2a9
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Oct 13 14:23:24 2023 -0700
+
+    ● The Open Interpreter Hackathon has been extended!
+
+commit 89018c6fd6d14fc8560371a0feff65e63ee8f2b5
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Oct 13 14:16:42 2023 -0700
+
+    THE HACKATHON IS ON
+
+commit 1e8a6652b8141950b90e7a33f008c997003df558
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Oct 13 10:16:35 2023 -0700
+
+    The OI hackathon has wrapped! Thank you everyone!
+
+commit 4c06964fd8b9e06e8ea6d1024600719b6c7da6f3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Oct 12 11:48:36 2023 -0700
+
+    Welcome hackers!
+
+commit 8724240f134a08012e41757c52cf32b1a2812816
+Author: Ikko Eltociear Ashimine <eltociear@gmail.com>
+Date:   Fri Oct 13 00:17:07 2023 +0900
+
+    Fix typo in setup_text_llm.py
+    
+    recieve -> receive
+
+commit d42e13ce1092a9003c033717625560e2a4e8275a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Oct 12 01:11:52 2023 -0700
+
+    Welcome hackers!
+
+commit 57b28a754d27091ec0950f61b23188f3b9aecc31
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Oct 12 01:09:59 2023 -0700
+
+    WELCOME HACKERS!
+    
+    The Open Interpreter Hackathon is on.
+
+commit cb5e510bb9fe34f54216e9071e2268d3a0448960
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Oct 12 00:59:19 2023 -0700
+
+    More powerful reset function, incremented version
+
+commit c3d4f06d134252448dec62aa8d5a03b3b6defb9c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Oct 12 00:10:26 2023 -0700
+
+    Better exposed procedures
+
+commit 15c4ecf33999ed81f3805da72ca3ec9b85fa7811
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 23:56:25 2023 -0700
+
+    Better exposed procedures
+
+commit 771274ff1a234d251bce1cd78e4afc92189eadb1
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 23:19:20 2023 -0700
+
+    Exits properly in colab
+
+commit 42a6905ac2a08e2a17c876df245f10339c00e948
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 23:16:11 2023 -0700
+
+    Better procedures exposure
+
+commit 3c923e5ece1dd0672b276ec65e5cadc1de7d54b1
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 23:16:08 2023 -0700
+
+    Better procedures exposure
+
+commit 808196164d8d23ca63a889c3b10c845a862298be
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 22:18:13 2023 -0700
+
+    Exposed get_relevant_procedures_string
+
+commit 27ddc8d9cabad7ed7b37ef1e4a4c02ef810339cc
+Merge: a66ca33a d8153947
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 22:03:34 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit a66ca33a8c985d4882d84e9627e0c170bc65ae53
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 22:03:32 2023 -0700
+
+    Exposed Procedures
+
+commit d8153947f3d6678c1835125f2148969bf42b1972
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 16:53:02 2023 -0700
+
+    Skipping nested test
+
+commit 9890b1285bbbc411266c47d43d5935e3b9e38514
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 16:15:51 2023 -0700
+
+    Incremented version, updated litellm
+
+commit e397265ece36c64057529939a19f580d9116b308
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 16:08:59 2023 -0700
+
+    Better messaging
+
+commit 88a0c6b51094a968c1814262817e0910ee67b00d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 14:28:18 2023 -0700
+
+    OpenAI messages -> text LLMs are now non-function-calling
+
+commit 687b895410cdec9c85f74aafde91181d149bf529
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 14:28:16 2023 -0700
+
+    OpenAI messages -> text LLMs are now non-function-calling
+
+commit f01ef6b8b6605e09acebb9cbd6fc8394c73f17e3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 13:57:39 2023 -0700
+
+    Fixed Mistral HTML entities + backticks problem
+
+commit 8d465fee617247598cc876f21d68ba9247df43a2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 13:57:37 2023 -0700
+
+    Fixed Mistral HTML entities + backticks problem
+
+commit 358728b1d81f155ff156d01c2f60a2a11083c36e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 12:51:53 2023 -0700
+
+    Added useful flags to generator
+
+commit c93eb678c6bd87cd94f4ed86f9ba11d3d22a3ded
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 12:37:05 2023 -0700
+
+    Fixed shell blocks not ending on error bug
+
+commit 798de269b586e6b386b5cb74ae5392593f4edd44
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 12:20:35 2023 -0700
+
+    Alignment
+
+commit 7b43471895e4963c4a661ee6b38c3e9b730f36f4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 12:19:17 2023 -0700
+
+    Alignment
+
+commit a9bf6a82f7369e5a3d3962a1f8e88f68ad4aae69
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 11:41:45 2023 -0700
+
+    The Local Update
+
+commit c9aeda5f9c899ab0ab9b86e103e6cf5e6d2a771e
+Merge: fade9ffb 4945e65d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 11:30:26 2023 -0700
+
+    The Local Update
+
+commit 4945e65d8f794d0af378da8436c73e37f8760f40
+Merge: baf36b18 fade9ffb
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 11:30:05 2023 -0700
+
+    Merge branch 'main' into local
+
+commit fade9ffbd65ee6c6b82535101971b653de39a883
+Merge: acef59ec d6829b02
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 11:26:18 2023 -0700
+
+    Deleted archive files, adding @DaveChini Powershell
+
+commit d6829b02449b6e3b66149b77dd69e2715c4b622d
+Merge: acef59ec 78478438
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 11:24:44 2023 -0700
+
+    Deleted archive files
+
+commit acef59ecf0e6c64c1b531fa9f0d55b2a2bd2992f
+Merge: 8ec94924 b7315d29
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 11:16:20 2023 -0700
+
+    Merge branch 'InterwebAlchemy-feature/estimate-tokens'
+
+commit b7315d2903efe8182242eeadbe051e8b8d97d1a6
+Merge: 8ec94924 6f788e7b
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 11:15:12 2023 -0700
+
+    Merge branch 'feature/estimate-tokens' of https://github.com/InterwebAlchemy/open-interpreter into InterwebAlchemy-feature/estimate-tokens
+
+commit 8ec949246f8f39b6a8f9d03ff7b1468ee1a69832
+Merge: 492a62ee b0fb3d7a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 10:58:02 2023 -0700
+
+    Merge pull request #609 from InterwebAlchemy/feature/more-configs
+    
+    feat: add support for loading different config.yaml files
+
+commit 492a62ee19f42d1364bddf90a9ef5e227c0bd917
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 10:57:37 2023 -0700
+
+    Using Eric's tests
+
+commit baf36b185d56ff175fbc9ba39692b24e04bbdc74
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 10:47:24 2023 -0700
+
+    More Ooba
+
+commit 97251c6520f9b789f59ff51374835f522bdafae7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 10:42:34 2023 -0700
+
+    Switched tests to turbo
+
+commit f299c9eb3ce82a8c48f7e145d8c8ea36d148bddc
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 10:30:24 2023 -0700
+
+    Paused math test
+
+commit 6f788e7b284c647623edddfb358a511d250ad872
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Tue Oct 10 01:32:37 2023 -0400
+
+    feat: add optional prompt token/cost estimate to %tokens
+    
+    This gives  and optional  argument that will estimate the tokens and cost of any provided prompt to allow users to consider the implications of what they are going to send before it has an impact on their token usage.
+
+commit b0fb3d7a3bd7a728d0af2c0ece6f265421aa19d1
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Mon Oct 9 12:02:42 2023 -0400
+
+    feat: add support for loading different config.yaml files
+    
+    This adds a --config_file option that allows users to specify a path to a config file or the name of a config file in their Open Interpreter config directory and use that config file when invoking interpreter.
+    
+    It also adds similar functionality to the --config parameter allowing users to open and edit different config files.
+    
+    To simplify finding and loading files I also added a utility to return the path to a directory in the Open Interpreter config directory and moved some other points in the code from using a manually constructed path to utilizing the same utility method for consistency and simplicity.
+
+commit eb7b7b5ccab4a8aed65c865fdfc0dca51250d1c3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 11 00:30:58 2023 -0700
+
+    Improved tests
+
+commit 6574e0147bd6b5b5a0d8cd4345e54c86f2d2bd21
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 15:59:42 2023 -0700
+
+    Paused math test
+    
+    Let's look into this soon. Failing a lot
+
+commit 8d4e92d418bd9325336e9e4b4bccf5220e7067b7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 15:42:34 2023 -0700
+
+    More flexible tests
+
+commit 856835e22ee6d95b6a3cf221241e3b3feff3d3ae
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 15:38:23 2023 -0700
+
+    Testing tests
+
+commit e37c1255c498bb7c0985e5feb3c1129a5fca2fb6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 14:21:36 2023 -0700
+
+    Second version of ooba-powered setup_local_text_llm
+
+commit ffc2d68422131c59b327533f900710233118f3da
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 14:12:09 2023 -0700
+
+    First version of ooba-powered setup_local_text_llm
+
+commit 4513400d22ccb3a2f3fcc5f2ad9eeb90c47e2b6c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 14:12:07 2023 -0700
+
+    First version of ooba-powered setup_local_text_llm
+
+commit 130d367a58d35e0662fe786017aea81a9298a52a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 13:50:29 2023 -0700
+
+    Removed /archive, adding Mistral support
+
+commit 5c2e01ec3fc3236a3aaaf11fbe6ec69e01124142
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 13:50:26 2023 -0700
+
+    Removed /archive, adding Mistral support
+
+commit 29eb06c87f6e6b88d26bdaad45394f2f0083a59f
+Merge: 08899a18 86a6430a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 13:46:33 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 08899a181c79a37f848d0e0b1d943690f59a7303
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Oct 10 13:46:31 2023 -0700
+
+    Adding Mistral support
+
+commit 784784382e0142895af8b6ddb6ec962e86de425e
+Author: DaveChini <Dave@ctc.com>
+Date:   Tue Oct 10 12:10:27 2023 -0400
+
+    Added powershell language
+
+commit 86a6430a59a0ee250652b402205a07e429c0f2f2
+Merge: 55344ba1 eef23fd3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Oct 9 12:54:45 2023 -0700
+
+    Merge pull request #607 from InterwebAlchemy/feature/token-count
+
+commit 55344ba1dec0d8f75d813beef8386211a9d200ec
+Merge: a294b34e 11200b25
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 8 22:28:44 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit a294b34e3fa0933ff5895e28b6f1388280d16a39
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Oct 8 22:28:39 2023 -0700
+
+    Put quotes around sys.executable (bug fix)
+
+commit eef23fd3fa493b97cde35a5f26a56df9ceb60d8c
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sun Oct 8 19:49:13 2023 -0400
+
+    fix: include generated code in token count; round to 6 decimals
+
+commit 1115cc606828dc7767e794131656a0c015d8c696
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sun Oct 8 16:05:42 2023 -0400
+
+    chore: add %tokens to README
+
+commit ba72cb7b6cfe32aed15ff9b68c019cdd4cc30996
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sun Oct 8 15:56:38 2023 -0400
+
+    fix: add note about only including current messages
+
+commit a1895e7a21e3e1452099b5fd03ca6db3e2cc327f
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sun Oct 8 15:52:05 2023 -0400
+
+    feat: add estimated cost from litellm to token counter
+
+commit 370b3ef264812bd9aa72ee9ac1a322606a875243
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sun Oct 8 15:33:48 2023 -0400
+
+    feat: add %tokens magic command that counts tokens via tiktoken
+
+commit 11200b25de773b78a63874a8378872eaec39abc7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Oct 7 17:09:25 2023 -0700
+
+    New documentation site: https://docs.openinterpreter.com/
+
+commit 443f76566d75b1dd2a1015ff753b03ccca8f0cb1
+Merge: 1f5f05f2 5b6080fa
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Oct 6 00:14:54 2023 -0700
+
+    Merge pull request #560 from kylehh/bug_setup_text_llm
+    
+    Fixed a bug in setup_text_llm.py
+
+commit 1f5f05f2affe76891caff5cfc5842f156d2c256d
+Merge: 61a38c32 6ea4cb61
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Oct 5 14:27:39 2023 -0700
+
+    @EricRAllen's test suite
+    
+    chore: update test suite
+
+commit 6ea4cb61efbfca0803322fdec536e850b212a9cf
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Thu Sep 28 12:23:19 2023 -0400
+
+    chore: update test suite
+    
+    This adds a system_message prepending test, a .reset() test, and makes the math testing a little more robust, while also trying to prevent some edge cases where the llm would respond with explanations or an affirmative 'Sure I can do that. Here's the result...' or similar responses instead of just the exepcted result.
+
+commit 61a38c327a933d5a60fe897befa9d36e4379b9ec
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 4 00:47:02 2023 -0700
+
+    Clean Up Repo
+
+commit 792cfd2c88aa010f9368cebbd2af95f0768d37d5
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Oct 4 00:46:48 2023 -0700
+
+    Clean Up Repo
+
+commit 94eeaf25ed54d0f4fcdc1356e06579a283f79907
+Merge: cf0de99d fbe4b621
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Oct 2 14:13:53 2023 -0700
+
+    Merge pull request #563 from orangeZSCB/patch-1
+    
+    Update README_ZH.md
+
+commit cf0de99d8825fb04a23d561f428b80851a7d64f3
+Merge: 75486dea fa7d9372
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Oct 2 14:10:26 2023 -0700
+
+    Merge pull request #571 from alexweberk/patch-1
+    
+    Fix bug when trying to use local non-CodeLlama model
+
+commit fa7d9372d779fc32a406a60f476acd9926698ef4
+Author: Alex Ishida <alex.weber.k@gmail.com>
+Date:   Mon Oct 2 09:43:40 2023 +0900
+
+    Fix bug when trying to use local non-CodeLlama model
+    
+    Python split method and indexing into the second element in the list does not work when the string pattern is not found; there would be only one element in the resulting list.
+
+commit fbe4b621662bf6d8e13cca2138a936dd5eedd51e
+Author: BiliOrange <90908765+orangeZSCB@users.noreply.github.com>
+Date:   Sat Sep 30 22:46:16 2023 +0800
+
+    Update README_ZH.md
+    
+    Made the Chinese Translate better.
+
+commit 75486deac3cd21248de5060ce4e9e14444fbcd8c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 29 18:32:52 2023 -0700
+
+    Added link to new documentation site
+
+commit 5b6080fae1f8c68938a1e4fa8667e3744084ee21
+Author: Kyle Huang <kyle@anyscale.com>
+Date:   Fri Sep 29 10:45:46 2023 -0500
+
+    Fixed a bug in setup_text_llm
+
+commit 7a3f54d688e46dabde58f698574f300791b1944a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 21:26:55 2023 -0700
+
+    Generator Update Quick Fixes II
+
+commit 4dfdab33f070b61e38aa3d33c7c06d28776e42f5
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 21:14:13 2023 -0700
+
+    Cleaned up initial message
+
+commit 7c83acd81d1e5e438ed8749c6187c937caa54a2b
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 21:12:02 2023 -0700
+
+    Better --config
+
+commit 7b892ed74b93ae559070f7b307ac0c79666ed67d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 21:08:49 2023 -0700
+
+    Better config debugging
+
+commit 2e98965465273ea092523a5bc243ed1698613deb
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 21:04:08 2023 -0700
+
+    Better config debugging
+
+commit 2b0343d936078c74ac87f08d616e12faeb477adc
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 21:04:05 2023 -0700
+
+    Better config debugging
+
+commit db25704e8d96f02bebbef6a6062a6db32f34b8c8
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 20:50:42 2023 -0700
+
+    Better model validation, better config debugging
+
+commit 89b206629dcc6a839059fcda1524598fa2550736
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 20:10:16 2023 -0700
+
+    Generalized API key error message
+
+commit a7f47f5bb851f80f53444b65389190de6c758994
+Merge: b8826fd6 ecf07c1d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 20:07:42 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit b8826fd60816e6c4928e42ba1638d62aef665367
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 20:07:39 2023 -0700
+
+    Fixed first message inturruption error
+
+commit ecf07c1d6d6beeb711381887236b97821fc92175
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 18:48:34 2023 -0700
+
+    Fixed `%load` magic command
+    
+    But I think we should deprecate it in favor of `--conversations`.
+
+commit 2d85003ad2f53e99aa7bc93399a597b8a1f09c1e
+Merge: 3e9502f3 0ad4627c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 18:08:21 2023 -0700
+
+    Merge pull request #554 from InterwebAlchemy/feature/dont-overwrite-config-with-defaults
+    
+    fix: stop overwriting safe_mode config.yaml setting with default in args
+
+commit 3e9502f3094cbad4c28bc7790ed5b5777a95c6c9
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 16:37:56 2023 -0700
+
+    Holding `--safe` docs for pip release
+
+commit 0ad4627c160f1a8ed419b76d38dd8edc7b558667
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Thu Sep 28 17:58:00 2023 -0400
+
+    fix: stop overwriting safe_mode config.yaml setting with default in args
+
+commit 0daeeef56fd9e1674e9eddd55d5bf79925619f0f
+Merge: de9a61b0 0b732355
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 12:27:05 2023 -0700
+
+    @InterwebAlchemy's Code Safety / `--safe` Code Scanning PR
+    
+    @InterwebAlchemy's Code Safety / `--safe` Code Scanning PR
+
+commit de9a61b02019031c82cfed482d6196a12c824e95
+Merge: a9ed91c5 701a42d4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 12:20:01 2023 -0700
+
+    Merge pull request #511 from InterwebAlchemy/feature/args-with-choices
+    
+    fix: allow args to have choices and defaults
+
+commit a9ed91c5dc7adac5214f6f961577789ccae34046
+Merge: 4f22650e 2f84517e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 28 12:03:10 2023 -0700
+
+    Merge pull request #548 from goalkeepr/no-windows-trap
+    
+    Skip wrap_in_trap on Windows
+
+commit 2f84517e3d13b84581562ec6e91e24740a8857ed
+Author: goalkeepr <goalkeepr@gmail.com>
+Date:   Thu Sep 28 14:18:51 2023 -0400
+
+    Skip wrap_in_trap on Windows
+
+commit 0b73235504c5cd907ce85d2669a0a556302f2d0a
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Wed Sep 27 00:40:33 2023 -0400
+
+    feat: add loading indicator for feedback
+    
+    Also update scan_code to safe_mode in conditional
+
+commit 2653909d2d257f02a2dc02997a543b1d8c8ad14a
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Wed Sep 27 00:10:54 2023 -0400
+
+    fix: remove extra tempfile import from scan_code util
+
+commit efce2858ba110e5ddfbac2b64dd60315dd2705cb
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Tue Sep 26 13:33:18 2023 -0400
+
+    fix: pass debug_mode flag into file cleanup for code scan
+
+commit ba930b8b7ef06fe6be62d7ef1b31c99c9542e338
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Tue Sep 26 12:11:32 2023 -0400
+
+    docs: fix naming of safe_mode flag in README
+
+commit 3c89b82df6ebccaf9e95e3d5e9c51740365fd334
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Tue Sep 26 11:30:50 2023 -0400
+
+    feat: cleanup code scanning and convert to safe mode
+
+commit 286945717c5ec17d210eeeeea74e587268368e01
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sun Sep 24 22:28:49 2023 -0400
+
+    revert: undo default and choices change to cli.py
+    
+    This is being removed from this PR in favor of a standalone fix in #511
+
+commit 7379727d3cd31b4b9f52efe72254bbbfecde3cfd
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sat Sep 23 10:33:43 2023 -0400
+
+    fix: toggle code_scan based on auto_run setting; update --scan docs
+
+commit ffe9b6fa5c1eda8e375df527f635bb0845337ed3
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sat Sep 23 07:40:43 2023 -0400
+
+    fix: default to 'off' for scan_code attribute
+
+commit 76a220efde058a1f9902014695e65b19b6cce563
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sat Sep 23 00:41:08 2023 -0400
+
+    feat: add semgrep code scanning via --safe flag
+    
+    This reintroduces the --safe functionality from #24.
+    
+    --safe has 3 possible values auto, ask, and off
+    
+    Code scanning is opt-in.
+
+commit 4f22650e8f8f1f6b718d64818f001685c93c248d
+Merge: c9e2159a f89629a5
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 27 22:45:31 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit c9e2159a10f84a235ac9725a2a536935c1e14a3c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 27 22:45:29 2023 -0700
+
+    Generator Update Quick Fixes
+
+commit f89629a5db4bf78a075be63483aa9b3d11b4317d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 27 15:26:16 2023 -0700
+
+    Added example JARVIS Colab Notebook
+
+commit 916e1e19d610d83597e88c11248e66094b5ee9ef
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 27 15:24:55 2023 -0700
+
+    Added example JARVIS Colab Notebook
+
+commit 1851db8002186f2355d832b049510d4a891ea8c3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 27 11:28:10 2023 -0700
+
+    Generator Update Fixes (Updated Version)
+
+commit 23242419426b883ef80a9806796547ebbd522d02
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 17:47:04 2023 -0700
+
+    Proper TokenTrimming for new models
+
+commit 3671d9f969f8c80e14ffa1ac8b4df441de93b995
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 17:26:09 2023 -0700
+
+    Better debugging
+
+commit 476f692ee01dfc8781136ad1bfcbe0d130a341a5
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 17:26:06 2023 -0700
+
+    Better debugging
+
+commit ffdcc60d309532fc63c51888a60ca7f33744e968
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 17:15:50 2023 -0700
+
+    The Generator Update - Azure fix
+
+commit 3ffa2cb9289ff4039c33fbffc849b21f39c4dc85
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 17:10:42 2023 -0700
+
+    The Generator Update - Azure function calling
+
+commit 7f9b42850fe35d638e55c61200350bae4ddf8435
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 17:01:44 2023 -0700
+
+    The Generator Update - Azure fix
+
+commit 27ae9beb32c00de89ffeb89a452ae1c05650b995
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 14:53:19 2023 -0700
+
+    The Generator Update
+
+commit f776f4eb887bd2b30501dc0304915ff220540945
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 14:21:08 2023 -0700
+
+    The Generator Update
+
+commit db295976335eff29909bbac5bcd25a1aa9be9ac0
+Merge: 9652cace 8c2fff68
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 00:11:02 2023 -0700
+
+    Merge pull request #492 from kubla/patch-1
+    
+    Update get_relevant_procedures.py
+
+commit 9652cace3307d033d4e325a52619954041fbb80d
+Merge: 68e5f77b 34ae780a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 00:09:44 2023 -0700
+
+    Merge pull request #493 from mocy/fix_crash_unknown_command
+    
+    fix crash on unknwon command on call to display help message
+
+commit 68e5f77b13e9238c6f9f3a2f0d22d7406be54a96
+Merge: 0230bd0c eaff162f
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 00:08:37 2023 -0700
+
+    Merge pull request #501 from blujus/main
+    
+    Broken empty message response
+
+commit 0230bd0cefb0b8a67bec60f8561d42ff665f1fda
+Merge: c4090d55 f882ba61
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 26 00:07:24 2023 -0700
+
+    Merge pull request #505 from gavinmclelland/main
+    
+    Fix ARM64 llama-cpp-python Install on Apple Silicon
+
+commit c4090d5573837278e7b18e63c162e037731d3d24
+Merge: dd6ecb84 6bc293ca
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 25 23:54:29 2023 -0700
+
+    Merge pull request #523 from rsfutch77/patch-1
+    
+    Update WINDOWS.md
+
+commit 6bc293ca2172b301d1f1ca9a761a3279eb1b0930
+Author: Robert S Futch <robertsfutch@gmail.com>
+Date:   Mon Sep 25 22:59:08 2023 -0700
+
+    Update WINDOWS.md
+    
+    Warns the user to re-launch cmd windows after installing llama locally
+
+commit 2a42c2a29c27bd4cfcb539bc8051d37ae18822e9
+Author: Colton Lewis <colton.w.lewis@protonmail.com>
+Date:   Tue Sep 26 00:08:55 2023 -0500
+
+    Add GNU readline support for user input
+    
+    This commit adds import for the readline module at the top of
+    terminal_interface.py to provide GNU readline support for user
+    input. This will allow Unix users to edit their input and browse their
+    command history like in a UNIX shell. The readline module is imported
+    conditionally, so the script does not break for Windows users where
+    this module is typically not available.
+    
+    pyproject.toml already mentions the ability to do this when declaring
+    the pyreadline dependency and interpreter.py also attempts importing
+    readline, but it doesn't work unless the import is in the same module
+    using the input function.
+
+commit dd6ecb8441a410d4dced1fddc01e9a5dbffbee0c
+Merge: 8b3fe156 7002826f
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 25 18:54:54 2023 -0700
+
+    Merge pull request #508 from InterwebAlchemy/feature/fix-boolean-config-options
+    
+    fix: stop overwriting boolean config values
+
+commit 8b3fe156e0c68629b87440db7c5cdf369012b4af
+Merge: 3dc1981a be38ef8e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 25 16:56:29 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 3dc1981ae8934496e94114da1f72342e92691002
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 25 16:56:26 2023 -0700
+
+    Improved --conversations, --config
+
+commit f882ba618acff217627893825b7bae773039683f
+Merge: a3d39ccd be38ef8e
+Author: Gavin M'CLELLAND <gavin@mclelland.org>
+Date:   Mon Sep 25 08:58:56 2023 -0700
+
+    Merge branch 'KillianLucas:main' into main
+
+commit be38ef8ed6ce9d0b7768e2ec3f542337f3444f54
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 24 21:38:16 2023 -0700
+
+    The Generator Update (English docs)
+
+commit 34ae780a66eff9a413a7ba4aef23217b1942dee9
+Author: mocy <cmoutran@gmail.com>
+Date:   Sun Sep 24 22:34:19 2023 -0500
+
+    removed unnecessary spaces
+
+commit 701a42d48987dd1f686d5753eeddf19ebe594333
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sun Sep 24 22:19:20 2023 -0400
+
+    fix: allow args to have choices and defaults
+    
+    This allows non-boolean args to define possible options and default values, which were ignored previously.
+
+commit 7002826ffda985cb30612a5eda7fd563699fb218
+Author: Eric allen <eric@ericrallen.dev>
+Date:   Sun Sep 24 21:47:43 2023 -0400
+
+    fix: stop overwriting boolean config values
+    
+    Without the default set to None, any boolean CLI flag that isn't passed reverts to its default state even if it is configured in the config.yaml file.
+
+commit a3d39ccd694088107649daf71efe51d47ba953cf
+Author: Gavin M'CLELLAND <gavin@mclelland.org>
+Date:   Sun Sep 24 16:36:56 2023 -0700
+
+    Fix ARM64 llama-cpp-python Install on Apple Silicon
+    
+    This commit updates the `MACOS.md` documentation to include detailed steps for correctly installing `llama-cpp-python` with ARM64 architecture support on Apple Silicon-based macOS systems. The update provides:
+    
+    - A prerequisite check for Xcode Command Line Tools.
+    - Step-by-step installation instructions for `llama-cpp-python` with ARM64 and Metal support.
+    - A verification step to confirm the correct installation of `llama-cpp-python` for ARM64 architecture.
+    - An additional step for installing server components for `llama-cpp-python`.
+    
+    This commit resolves the issue described in `ARM64 Installation Issue with llama-cpp-python on Apple Silicon Macs for interpreter --local #503`.
+
+commit dee41b6932a0d9b5569b1abf9144b7ffd8c3c7ad
+Author: mocy <cmoutran@gmail.com>
+Date:   Sun Sep 24 10:50:05 2023 -0500
+
+    fix crash on unknwon command on call to display help message
+
+commit 8c2fff688d7a0c6ed8d8f58a337fd406a084b62b
+Author: kubla <michael.tiffany@gmail.com>
+Date:   Sun Sep 24 08:40:32 2023 -0400
+
+    Update get_relevant_procedures.py
+    
+    Fixed a typo in the instructions to the model
+
+commit 98407b971646cad2574969e13fb9bcc5aa1be714
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 23 19:25:31 2023 -0700
+
+    The Generator Update
+
+commit fa8d1e632e4d64837d1a4a4154d406da8c9eab36
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 23 19:23:20 2023 -0700
+
+    Upgraded dependencies
+
+commit 748580184ab5c5835ad565f4175f370aefa24fc1
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 23 19:22:31 2023 -0700
+
+    Improved tests
+
+commit b6fa5131643e81ac0c8eae8134fce1612ee7c0a0
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 23 19:19:18 2023 -0700
+
+    Better max_budget message
+
+commit 5ab034b0878eb394ec763b1e39e4012c9c3da82e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 23 18:57:50 2023 -0700
+
+    Removed --models message
+
+commit 5df9c200d103e182c15c27654e0a92c9c1667dfb
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 23 18:54:08 2023 -0700
+
+    Fixed GeneratorExit error
+
+commit 0d84f37b9ee7829078e5e4f593bde1394d0bb43a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 23 16:40:01 2023 -0700
+
+    Proper exec() use for text-only LLMs
+
+commit 5d8a0e1afa3d658142fc2c2b9a441008a441451a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 23 02:15:11 2023 -0700
+
+    Fixed setx on Windows (thanks Zoheb!)
+
+commit 9e1485122973788c80554ea5a20d2d76abe51807
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 23:34:08 2023 -0700
+
+    Fixed end_of_execution flag
+
+commit c70a717530ac868534b942ebc4eefc54cba3615d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 23:23:26 2023 -0700
+
+    Added end_of_execution flag
+
+commit 92269d8ce08972149baf7a0228a386d9fa78fff3
+Merge: c7107802 7f390545
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 19:37:14 2023 -0700
+
+    The Generator Update
+    
+    The Generator Update
+
+commit 7f3905456f48b204c185cd39fb936570763bfb0e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 19:36:56 2023 -0700
+
+    The Generator Update
+
+commit 08ec1eca898355d2b21e66136539dd6c8cd0371c
+Merge: 2e1fa764 c7107802
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 19:36:47 2023 -0700
+
+    The Generator Update
+
+commit 2e1fa764a05014f92d2ae0c25d5c250bdbb1f358
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 19:15:59 2023 -0700
+
+    Added --fast (depracated)
+
+commit 47e6d7429573e5a51dea5e8f6835afaa87133852
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 18:27:02 2023 -0700
+
+    Fixed max_budget
+
+commit b097bc2c09ff6080e98f3702bc374701885c5970
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 18:27:00 2023 -0700
+
+    Fixed max_budget
+
+commit d5ed1ea1ce85cbd46aa2bb6aa0bcf253f1880db2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 18:23:06 2023 -0700
+
+    Fixed --config on Windows
+
+commit 01590d90a2a3fba0a3e16d4933e38b9293b5a7ab
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 18:19:28 2023 -0700
+
+    Fixed --config on Windows
+
+commit ec5a9c3b7a27a6cbc92dc3e342826050e90acd5e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 18:19:23 2023 -0700
+
+    Fixed --config on Windows
+
+commit c3a2f0ae62fda98b6307e422e9ca41aaf488b501
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 18:03:43 2023 -0700
+
+    Added max_budget
+
+commit 08b4a56b784fb4d7e4aec293571fab2c77a70aa2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 18:01:51 2023 -0700
+
+    Fixed Windows and %save_message
+
+commit e4dc68f31d1e8881ba7c74276f719f186802bec0
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 15:39:05 2023 -0700
+
+    Handled setting api_key directly
+
+commit 230c51b072a5c65af76ecf9c47f25629c00f88e8
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 15:37:00 2023 -0700
+
+    Exposed more LiteLLM
+
+commit f04923cb4c2d626b1a862af4018108afa9557762
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 15:36:50 2023 -0700
+
+    Exposed more LiteLLM
+
+commit 6b648483790f74574eef904fb2e760af28913d6e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 15:27:49 2023 -0700
+
+    Generate.
+
+commit 96391cd5cb2f98a2f146fed87aa666606ca4ec11
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 15:27:44 2023 -0700
+
+    Generate.
+
+commit b20c0d1eafc3b6b767f7dd8ce6e2d75c4782f6d3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 00:06:16 2023 -0700
+
+    All of the love we generate
+
+commit 107110c4b100fb5fd035339455a88ed5e74f18e5
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 22 00:06:10 2023 -0700
+
+    All of the love we generate
+
+commit f1564e8569ce89042fc9f208421a27f5bedbafc7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 21 15:07:39 2023 -0700
+
+    Generate
+
+commit eaff162fea55e0b6c44597a20184e6d50fc51df0
+Author: Paul Sinclair <paul@slinky.cc>
+Date:   Thu Sep 21 21:10:04 2023 +0100
+
+    Broken empty message response
+
+commit e5ffc54ad616e4d587700f26a675549d9f045007
+Author: Andre Fritsche <andre.fritsche@outlook.de>
+Date:   Thu Sep 21 22:01:24 2023 +0200
+
+    Update README.md with ref to MACOS.md
+
+commit 74a31882b80524a342bb44a4d065c91880f60bb2
+Author: Andre Fritsche <andre.fritsche@outlook.de>
+Date:   Thu Sep 21 21:55:07 2023 +0200
+
+    Update MACOS.md
+    
+    We should add this warning to prevent readers from this document to open issues when trying to use the GPU with Intel CPUs in their Macs.
+
+commit 0447ae830c00af8de27b9c7960dfb9fced673b64
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 21 12:35:46 2023 -0700
+
+    Wow.
+
+commit c71078027fb6331adf9080c337802af73654c28d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 21 09:53:17 2023 -0700
+
+    Increment poetry.lock
+
+commit 805a62c9c425d5d4953a142bd46302b7003d8a0a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 21 09:47:53 2023 -0700
+
+    Generate
+
+commit 0a14619a6f5c191d17d21fca1c04c9038595fe84
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 21 09:47:41 2023 -0700
+
+    Generate
+
+commit 5df87aa4b87fa4d8e08561339c7f752babcc34a8
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 19:27:17 2023 -0700
+
+    Basics
+
+commit 05e83645d5cb1fee0f07b86395ca58ef47635f01
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 19:27:10 2023 -0700
+
+    Basics
+
+commit bf9b68ab346a4a2b6fdc803cfd97a3f952e402a3
+Merge: 637fedd2 23282e74
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:48:26 2023 -0700
+
+    Merge pull request #316 from krrishdholakia/main
+    
+    add budget manager for api calls
+
+commit 23282e7481d158b4b4131d82c8bf27118aa4edbc
+Merge: 2e73be5d 637fedd2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:46:26 2023 -0700
+
+    Merge branch 'main' into main
+
+commit 637fedd2dbe2964b09fb7ae9832bdbffed4494ca
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:37:29 2023 -0700
+
+    Update CONTRIBUTING.md
+
+commit 6b770b66bff261de4651ff0d5ef482b1a2ddc4f7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:35:54 2023 -0700
+
+    Update interpreter.py
+
+commit 1a3919e791a9468435d2f6b55cb3e466f8dff2fd
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:35:45 2023 -0700
+
+    Update get_hf_llm.py
+
+commit 19ac8a0753a349aa6655b547105e8bb263153be0
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:35:36 2023 -0700
+
+    Update code_interpreter.py
+
+commit 7f71c6cec9e461edc46a7ba296a4f25e83d43007
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:35:17 2023 -0700
+
+    Update 21st
+
+commit 33edd1ee7303817482b6ead2c4e9e472499485f3
+Merge: 49f5aa54 7bdbfd50
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:33:05 2023 -0700
+
+    Merge pull request #431 from richawo/load-message-exception-handler
+    
+    Handle %load_message failure in interpreter.py
+
+commit 49f5aa5467722caab93e6ad83e75df796368652d
+Merge: b4997e59 ff9f1b75
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 20 00:31:37 2023 -0700
+
+    Merge pull request #452 from mathiasrw/main
+    
+    Retry connecting to openai after hitting rate limit to fix #442
+
+commit ff9f1b75fc205c5c56f62a1fe42f02c94040d1af
+Author: Mathias Wulff <m@rawu.dk>
+Date:   Wed Sep 20 10:59:22 2023 +1000
+
+    Retry connecting to openai after hitting rate limit to fix #442
+
+commit 7bdbfd50077b2b90d7771f8adcdf88e56c6242a8
+Author: Richard Awoyemi <35015261+richawo@users.noreply.github.com>
+Date:   Tue Sep 19 01:08:56 2023 +0100
+
+    Handle %load_message failure in interpreter.py
+    
+    When the path for the %load_message doesn't exist, it currently errors out and causes Open Interpreter to come to a hard stop.
+    
+    I've prevented the error by simply adding a condition to catch the exception and printing a message explaining the failure.
+
+commit b4997e599d7be2b84bb1554c607a5023514bce63
+Author: mak448a <94062293+mak448a@users.noreply.github.com>
+Date:   Mon Sep 18 15:23:59 2023 -0500
+
+    Add models to pull request template (#423)
+    
+    * Add models to pull request template
+    
+    * Update template
+    
+    * Update pull_request_template.md
+
+commit 8695e5b6677c75c921fde27301ef9044be32d62d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 17 20:02:03 2023 -0700
+
+    Dividing folders
+
+commit 6297b453ca821f04a082f3283ed2f226f6ebdf8d
+Merge: b256877b 965a5eae
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 17 18:43:36 2023 -0700
+
+    Merge pull request #417 from zeelsheladiya/main
+    
+    Translated Open Interpreter README into Hindi
+
+commit 965a5eaee8c09cb910e31f9d68a8f0e2b2c04f93
+Author: zeel sheladiya <46935793+zeelsheladiya@users.noreply.github.com>
+Date:   Sun Sep 17 10:02:41 2023 -0400
+
+    Translated Open Interpreter README into Hindi
+
+commit b256877bf4c26b75a313fd70fa8687bb0bb2025d
+Merge: 7152fbde cab16f5e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 16 19:55:55 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 7152fbded0d3b86e1b891494840c9b9c9315f790
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 16 19:55:52 2023 -0700
+
+    Incremented version
+
+commit cab16f5e24f7cb0fd12096337599d315c83e8701
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 16 12:23:47 2023 -0700
+
+    Fix readline error
+
+commit 0db5ae6c2030687d7461d346d238f7f9e5ae82e7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 16 12:17:54 2023 -0700
+
+    Fix readline error
+
+commit 1566d7351726c084d7ced42dd3e3ce957d7bc23c
+Merge: f803d0d7 b070b1c0
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Sat Sep 16 11:55:43 2023 +0530
+
+    Merge pull request #397 from YUFEIFUT/wfz_typo_error
+    
+    Update interpreter.py for a typo error
+
+commit b070b1c0acfe4d75ff1d29f66aa3125927d8d447
+Author: YUFEIFUT <55017929+YUFEIFUT@users.noreply.github.com>
+Date:   Sat Sep 16 12:09:46 2023 +0800
+
+    Update interpreter.py for a typo error
+
+commit 2e73be5d0575112e3abdc6bed81ceb3fdaea52f9
+Author: Krrish Dholakia <krrishdholakia@gmail.com>
+Date:   Fri Sep 15 17:27:01 2023 -0700
+
+    bump litellm version
+
+commit c2bc89de059d5dadb42d832ce557bfc8d90aad8d
+Author: Krrish Dholakia <krrishdholakia@gmail.com>
+Date:   Fri Sep 15 14:52:16 2023 -0700
+
+    bump litellm version
+
+commit fdd507b41a256bf05c9575411bd004e1a7207875
+Author: Krrish Dholakia <krrishdholakia@gmail.com>
+Date:   Fri Sep 15 06:39:46 2023 -0700
+
+    adding fixes
+
+commit f803d0d7a545edabd541943145a2a60beaf604e4
+Merge: 782ff0ac 5818b64c
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Fri Sep 15 15:41:44 2023 +0530
+
+    Merge pull request #378 from moming2k/fix/issues_371
+    
+    discard the / as command as it will block the Mac/Linux to load the file
+
+commit 5818b64ccc5b6e0a5a7dc4747be36e0600848078
+Author: Chris Chan <chrischanauk@gmail.com>
+Date:   Fri Sep 15 08:00:51 2023 +0100
+
+    discard the / as command as it will block the Mac/Linux to load the file
+
+commit 782ff0ac58d40db4825563a6d5605a66768e2ab4
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Thu Sep 14 23:49:08 2023 -0500
+
+    chore: add vscode debug support
+
+commit 46271f48b5eb161e334cffa9d9fa486946abbadc
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Thu Sep 14 23:20:43 2023 -0500
+
+    chore: enhance .gitignore
+
+commit c99b74e5721bfc0b92a6aa620897ce0c4d164db4
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Thu Sep 14 23:09:54 2023 -0500
+
+    docs: move pr template to .github folder
+
+commit 81da0db8733d0b97931653692344ed974c225c51
+Author: Krrish Dholakia <krrishdholakia@gmail.com>
+Date:   Thu Sep 14 20:37:35 2023 -0700
+
+    updates to budget manager
+
+commit 8a3958e0a2f92ee2904dc28a6ab9f6f4d0dbab4d
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Thu Sep 14 23:40:19 2023 +0530
+
+    Create pull_request_template.md
+
+commit be0fc2d42cbecd18c816782159e650d233b03f46
+Author: merlinfrombelgium <26247323+merlinfrombelgium@users.noreply.github.com>
+Date:   Thu Sep 14 16:49:55 2023 +0200
+
+    Fix typo 'recieved'> 'received'
+    
+    Noticed this typo in the debug output of OI :)
+    Did a further spell check using Bing Chat (yes, really) and didn't find any other real typo's.
+
+commit eaaa56b3f9903afc0433ffa7a9eaf2794c8b24ca
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 14 01:22:35 2023 -0700
+
+    Improved R support
+
+commit 3f0eb9f5e4a0b6da5c421c670b7d9d1d3f3ebbe7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 14 01:18:38 2023 -0700
+
+    Improved R support
+
+commit 79dd0ffcfad03556ab0f1482314ef233d82c7b1a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 14 01:13:25 2023 -0700
+
+    Improved R support
+
+commit d9e275a8ad8337d37e87f3706c07d9dae8cf9c67
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 14 01:09:43 2023 -0700
+
+    R support
+
+commit c636b063ba844cf83f6691d4c5440a9a682fd28c
+Merge: 0c59c3ab 1f5391f7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 14 01:03:49 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 0c59c3ab4d08f743503559355412571151aa2471
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 14 01:03:47 2023 -0700
+
+    Simplified welcome message
+
+commit 1f5391f7adc29b2bdf343d8b97e3450b48ac3497
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Thu Sep 14 02:17:29 2023 -0500
+
+    docs: move CONTRIBUTING to common path
+
+commit 4c9e3dcafa0501f68a3cc5a788b8828b4d206406
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 13 23:38:54 2023 -0700
+
+    R language support fixes
+
+commit a4a59cbd7b0c9889b4cbcd9e12be713b8b735e35
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 13 23:38:46 2023 -0700
+
+    R language support fixes
+
+commit b2f8de577b7cde9b85b418fa823475089d33f571
+Author: George Rey <1606347+jerzydziewierz@users.noreply.github.com>
+Date:   Thu Sep 14 04:28:32 2023 +0100
+
+    enable resume download from HF
+
+commit e2e8b6bcb37d685a3f05d74ff48a7c0cfdedf384
+Merge: 70b32836 b5f84249
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 13 19:54:17 2023 -0700
+
+    Merge pull request #338 from KillianLucas/env_vars
+    
+    fix: merge os.environ with llama install env_vars
+
+commit 70b3283620ad85b61caeb0200e184579ae1a5065
+Author: Ale <lalebot@users.noreply.github.com>
+Date:   Wed Sep 13 21:21:59 2023 -0300
+
+    remove duplicate import of inquirer library
+
+commit 0d3b1ac7bf2e78366195b96867b306ca2fdd92f3
+Author: Antonio Martínez <antonio_martinez88@hotmail.com>
+Date:   Wed Sep 13 13:27:55 2023 -0400
+
+    Update GPU.md
+    
+    Added Integration with Visual Studio, without that CMake won't recognize CUDA Tools, and installation of llama-cpp-python will be incomplete
+
+commit b5f842493b87700cbfa3c0be5b5e3df7b67c9f27
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Wed Sep 13 17:16:45 2023 -0500
+
+    fix: merge os.environ with llama install env_vars
+
+commit 162e93d90d74777df71679e985378ba4e414f91d
+Merge: 42dd3ae9 04cc33e4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 13 14:57:49 2023 -0700
+
+    Merge pull request #273 from oliverpalonkorp/undo-cli
+    
+    Remove previous message and its responses from chat history with undo-command.
+
+commit 42dd3ae947b98e5a6ea46087e039dbc3b4c3475b
+Merge: 38711148 1362dfc6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 13 14:55:08 2023 -0700
+
+    Merge pull request #323 from michaelzdrav/check-disk-space
+    
+    Check disk space before downloading models
+
+commit 04cc33e4796e5814daf138f7f682d7d07508467f
+Author: Oliver Palonkorpi <oliver@palonkorpi.fi>
+Date:   Wed Sep 13 17:17:21 2023 +0300
+
+    Moved undo command below reset
+
+commit 1b68f9a80c12f29e6eb7014796f57426e0d94feb
+Author: Oliver Palonkorpi <74305333+oliverpalonkorp@users.noreply.github.com>
+Date:   Wed Sep 13 17:15:09 2023 +0300
+
+    Update interpreter/interpreter.py
+    
+    Fix comment to "TODO"
+    
+    Co-authored-by: Chris Chan <moming2k@gmail.com>
+
+commit 460fe9e04503f72d3d9cb0bdea70399e0cc34a74
+Author: Oliver Palonkorpi <oliver@palonkorpi.fi>
+Date:   Wed Sep 13 16:35:34 2023 +0300
+
+    Fixed README, fixed handle_undo missing args, removed hotkeys.py (can revisit later)
+
+commit 5630989ce5cfc0e0df0c545d0b1e38b477700614
+Merge: 548608c1 38711148
+Author: Oliver Palonkorpi <74305333+oliverpalonkorp@users.noreply.github.com>
+Date:   Wed Sep 13 16:30:22 2023 +0300
+
+    Merge branch 'main' into undo-cli
+
+commit 1362dfc6815a21b165d1c957b5501c9a3fa89473
+Author: Michael Zdravkovski <51728718+michaelzdrav@users.noreply.github.com>
+Date:   Wed Sep 13 17:01:08 2023 +0800
+
+    Use default_path for disk space check
+
+commit 87874297a25b293152ee90eb3174670bf39a66a7
+Author: Michael Zdravkovski <51728718+michaelzdrav@users.noreply.github.com>
+Date:   Wed Sep 13 16:44:45 2023 +0800
+
+    Check disk space before downloading models
+
+commit 38711148147f84c4c4af2f7dffc1c35f46a7cad2
+Merge: aee7c529 8436bc20
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 12 23:42:31 2023 -0700
+
+    Merge pull request #302 from moming2k/feature/handle_command_on_hook
+    
+    Feature: Implement and Document New Interactive Mode Commands
+
+commit d4f2fef372aee3d8ef2f2ef0e8471a6ebc0acba1
+Author: Krrish Dholakia <krrishdholakia@gmail.com>
+Date:   Tue Sep 12 22:20:52 2023 -0700
+
+    add budget manager for api calls
+
+commit 8436bc2018a79ce5794c73a5116bb4c6503de4cf
+Author: Chris Chan <chrischanauk@gmail.com>
+Date:   Tue Sep 12 19:51:10 2023 +0100
+
+    commit on command handle
+
+commit aee7c529ebae6398fe094acad28f893785e34cd8
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 12 03:00:21 2023 -0700
+
+    Closed <img> tags
+
+commit d53acda51cc69a7ad29f2cae3e5af45822231fde
+Merge: 7f1afb50 54d8427c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 12 02:20:18 2023 -0700
+
+    Merge pull request #266 from jordanbtucker/security
+    
+    docs: add security policy
+
+commit 7f1afb508e87b1020216ba04c881a244b7c73812
+Merge: 107da4d9 1828ffad
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 12 02:10:27 2023 -0700
+
+    Merge pull request #278 from jjolly/jjolly-model-file-handling
+    
+    Better handling of split LM download
+
+commit 107da4d99d2149104ac38042ba0b5425f478f861
+Merge: 26fc973b 033d452e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 12 02:07:39 2023 -0700
+
+    Merge pull request #270 from codeacme17/fix
+    
+    fix(ui): fix the display problem of welcome message
+
+commit 26fc973b127506e45de7a56a123e3c6bb97bac5c
+Merge: 65b95879 fb6d11c6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 12 00:34:32 2023 -0700
+
+    Merge pull request #292 from Michael-Lfx/patch-1
+    
+    Fix typo.
+
+commit 65b95879f3ffc5d3f924fde0096829999a8c6ea2
+Merge: b457a625 bb71ae45
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Tue Sep 12 12:03:49 2023 +0530
+
+    Merge pull request #291 from codeacme17/chore
+    
+    chore(git): ignore `litellm_uuid.txt`
+
+commit b457a6254c5bc421f3e927ff8f5cb8af4136fc5d
+Author: Ishaan Jaff <ishaanjaffer0324@gmail.com>
+Date:   Mon Sep 11 22:27:30 2023 -0700
+
+    [LiteLLM Fix] Fix using litellm.api_base, litellm.api_key, litellm.api_version  (#284)
+    
+    Fixed #245
+    
+    * bump litellm
+    
+    * bump litellm version
+    
+    * fix failing build try ^0.1.589
+    
+    * bump poetry lock version + litellm
+
+commit fb6d11c66d4bf8441df9e097ff71f14c4c1b92ca
+Author: LaiJF <cihv2@163.com>
+Date:   Tue Sep 12 13:02:56 2023 +0800
+
+    Fix typo.
+
+commit bb71ae4543d68babfc4152050c27a65a1b5d4b09
+Author: leyoonafr <vir_kings@qq.com>
+Date:   Tue Sep 12 09:15:35 2023 +0800
+
+    chore(git): ignore `litellm_uuid.txt`
+
+commit 927884876bb9613bfe2860916d03eab66951f44f
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Mon Sep 11 14:23:13 2023 -0500
+
+    docs: use x64 in WINDOWS.md and GPU.md
+
+commit 9181b66a4a9ba636d655a1dd30cae338291e626f
+Merge: 7e39d2f5 42e520a2
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Tue Sep 12 00:33:17 2023 +0530
+
+    Merge pull request #282 from gijigae/readme_jp
+    
+    Updated localized Japanese README Translation
+
+commit 42e520a20578fee2fbb0edc1dc87ca541e025835
+Author: Sangmin Ahn <gijigae@gmail.com>
+Date:   Tue Sep 12 02:42:11 2023 +0900
+
+    Updated localized Japanese README Translation
+
+commit 1828ffad3a1da803dc4d388710a3cd3dbfd76d62
+Author: John L. Jolly <jjolly@jjolly.dev>
+Date:   Mon Sep 11 14:51:21 2023 +0000
+
+    fix: use base path to combine files
+
+commit 97caebc03cfbbb409c793a9b3fb01609f980d50e
+Author: John L. Jolly <jjolly@jjolly.dev>
+Date:   Mon Sep 11 13:47:56 2023 +0000
+
+    ui: Ask before overwriting split files
+
+commit 548608c1f6b906d632fad45237c67abc7f9b5037
+Author: Oliver Palonkorpi <oliver@palonkorpi.fi>
+Date:   Mon Sep 11 16:33:56 2023 +0300
+
+    Removed hotkey functionality, does not work
+
+commit c344b061394fbcce7f3c792c7b36a73aaa6a7bde
+Author: Oliver Palonkorpi <oliver@palonkorpi.fi>
+Date:   Mon Sep 11 16:11:16 2023 +0300
+
+    Added functionality to undo previous message and responses. Added also hotkey functionality, but it is currently disabled.
+
+commit 033d452edcf228fd0565140a34ae795fc85bfb8f
+Author: codeacme17 <vir_kings@qq.com>
+Date:   Mon Sep 11 19:40:15 2023 +0800
+
+    fix(interoreter): fix the display problem of welcome message
+
+commit 54d8427c5f377e2a70608b3c24ec6dc2d118834e
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Mon Sep 11 08:56:04 2023 +0000
+
+    docs: add security policy
+
+commit 7e39d2f595c936209fcf9396cf5d07510e0b5fa2
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Mon Sep 11 06:37:28 2023 +0000
+
+    docs: separate system versions into own fields
+
+commit 9b4dc3b7783c6f84a7c00a4967b4c8d6ecd62ee0
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Mon Sep 11 06:18:26 2023 +0000
+
+    docs: upgrade issue templates
+
+commit 33c8a40fe3040237ccc85a3dc718d7afe4102993
+Merge: 20854f38 84a4d609
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 22:43:16 2023 -0700
+
+    Merge pull request #257 from codeacme17/feat-dev
+    
+    ui: optimize welcome message
+
+commit 20854f3818c0d803c0592e540713e6f32ffccdce
+Merge: b5611a38 81b08720
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 22:05:14 2023 -0700
+
+    Merge pull request #253 from okisdev/main
+    
+    fix: localisation
+
+commit 81b08720c7cf822c0355f048e55fdb926ad67391
+Author: Harry Yep <git@hode.co.uk>
+Date:   Mon Sep 11 12:58:19 2023 +0800
+
+    fix: Chinese translation
+
+commit 98a80597eb0084aa0232731b6c4c626f3fdbacac
+Merge: 1905a89c b5611a38
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 21:32:16 2023 -0700
+
+    Merge branch 'main' into main
+
+commit 84a4d60969cdb95f2a425ffaca20694106ff161b
+Author: leyoonafr <vir_kings@qq.com>
+Date:   Mon Sep 11 11:48:07 2023 +0800
+
+    ui: optimize welcome message
+
+commit b5611a38d9cedff1bbfe75e10ad9b46a06abe9fe
+Merge: 393ff3ae c0bf72c4
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Mon Sep 11 08:37:25 2023 +0530
+
+    Merge pull request #248 from osanseviero/patch-1
+    
+    Fix minor typo
+
+commit 1905a89cc268249e879d39c58500c6b7378aded0
+Author: Harry Yep <git@hode.co.uk>
+Date:   Mon Sep 11 08:44:54 2023 +0800
+
+    fix: localisation
+
+commit b8115f3404492305e61a93d9fe6226cc8583d506
+Merge: d0e94df1 393ff3ae
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 17:27:03 2023 -0700
+
+    Merge branch 'main' into main
+
+commit 393ff3ae1c9921e36acd84333178dcc3bc3a39e2
+Merge: 7302c633 60725eb1
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 17:10:34 2023 -0700
+
+    Add support for R language
+    
+    add support for R language, update instructions for package installat…
+
+commit 60725eb1699ff0768dacf482d374658fb45357b8
+Merge: fb5cca12 7302c633
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 17:08:37 2023 -0700
+
+    Merge branch 'main' into r-lang
+
+commit 7302c63317f2bd0b39d3bdc9dd2abdc946807522
+Merge: 21c15369 a7908031
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 16:57:26 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 21c153694ffd9e875d63fb823e080fcb3ea96fa0
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 16:57:20 2023 -0700
+
+    Redirect Falcon-180B to quantized version, change context/max_tok defaults
+
+commit fb5cca12f235459450802731cdfc099851497fb6
+Author: Freeman Wang <shuaichengwang@gmail.com>
+Date:   Sun Sep 10 18:33:19 2023 -0400
+
+    add support for R language, update instructions for package installation, remove unnecessary whitespace
+
+commit c0bf72c4359cc44624cc0c1bc39629de16783d80
+Author: Omar Sanseviero <osanseviero@gmail.com>
+Date:   Sun Sep 10 23:09:52 2023 +0200
+
+    Update README.md
+
+commit a79080319511f4aa833febeb550399d657880412
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 07:41:58 2023 -0700
+
+    Falcon-180B // Any 🤗 model via `--model meta/llama`
+
+commit 3e8416ac2686e5c7d89962c7da1e7f8eaa01f1b6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 06:03:05 2023 -0700
+
+    Max tokens, context window control for local models
+
+commit e9328e61b1f82b68e35969c40eeab51316299460
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 04:55:27 2023 -0700
+
+    Changed default CTX and better messaging
+
+commit d0e94df162bbb5da48bb7053886bac78da85b196
+Merge: 4d3bee61 16c6a601
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 04:15:40 2023 -0700
+
+    Merge branch 'main' into main
+
+commit 16c6a6013af0cc79923b56bb6413c9e2e2c2ecc7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 04:05:35 2023 -0700
+
+    Falcon-180B // Any 🤗 model via `--model meta/llama`
+
+commit d1660646be28d54ed89148f55da435d842399ccc
+Merge: 96607708 73c7d250
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 04:03:32 2023 -0700
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 9660770858a2c4799515a6a46e469e11ec609270
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 04:03:28 2023 -0700
+
+    Falcon-180B // Any 🤗 model via `--model meta/llama`
+
+commit 73c7d250657a706df44640cf29e4282c9b57b397
+Merge: a6fa6153 f4a0b1cc
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 03:18:43 2023 -0700
+
+    Merge pull request #96 from Maclean-D/main
+    
+    Fix GPT 3.5 from failing to run commands
+
+commit 4d3bee6109b3dcdeec3ad1b6fc1617557cf8e09a
+Author: codeacme17 <vir_kings@qq.com>
+Date:   Sun Sep 10 18:18:03 2023 +0800
+
+    feat: add hints to Azure model
+
+commit a6fa6153fd4d5275cee7ddd30b8edf74fb041fdd
+Merge: 6ee284ce df4aad18
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 03:12:36 2023 -0700
+
+    Merge pull request #230 from shubhe25p/main
+    
+    remove redundant checks for apple silicon
+
+commit 6ee284cedf33b0195aa1019a1fec3eb566db9532
+Merge: 4404c4ba b2d53def
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 03:10:13 2023 -0700
+
+    Update contributing.md with instructions on how to get local fork running
+    
+    Update contributing.md with instructions on how to get local fork running
+
+commit b2d53deff689adda1777a830d17c720600cc9ea8
+Author: Oliver Palonkorpi <74305333+oliverpalonkorp@users.noreply.github.com>
+Date:   Sun Sep 10 12:38:02 2023 +0300
+
+    Update contributing.md with instructions on how to get local fork running.
+
+commit 4404c4baa4f0abe6325a50b82acfbc6226cd540c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 02:29:06 2023 -0700
+
+    Good design transcends language
+
+commit b68998a8d8f1386509d1c8703d5bd399f5a69f4a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 02:28:19 2023 -0700
+
+    Update README_JA.md
+
+commit 464548898ae02e805375deb660d920336e53a7fb
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 02:23:33 2023 -0700
+
+    Create README_ZH.md
+
+commit 66888f285c91209271a845e4bb9650c81be1acd0
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 02:21:38 2023 -0700
+
+    Added English link to JA doc
+
+commit e5bfa959febe1de08e23b2d764ef095f6580c961
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 02:19:13 2023 -0700
+
+    Update ZH link
+
+commit 71c0401632e4e17f2e26b5d82a5f03b53e5a7d49
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 02:12:48 2023 -0700
+
+    Improve README_JA.md
+
+commit 4e59db8c5f2b080d40b8693dce77cc12275282e0
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 02:11:27 2023 -0700
+
+    Add Japanese and Chinese READMEs
+
+commit 7775346caec75837c33647130d857d92b1719b0e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 02:09:25 2023 -0700
+
+    Create README_JA.md
+
+commit 1660d58c5b1b0416d45b5dbf9b355be1b491f748
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 10 00:23:52 2023 -0700
+
+    Localhost Support
+
+commit a59529aed770e045d13b80f6364d34bca04b3bab
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 23:34:19 2023 -0700
+
+    API Base Access
+
+commit 3ec6b4d5b1e94417ee5a195d2ae4d5217d6d5a0e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 23:17:51 2023 -0700
+
+    Added `--version` per RowDog
+
+commit df4aad18482a9bc18ebf9cbf5ae893904714eb41
+Author: shubhe25p <shubhpachchigar@gmail.com>
+Date:   Sat Sep 9 22:27:21 2023 -0700
+
+    remove redundant checks for apple silicon
+
+commit 350ff2acd4ae927a156878ba0636bd843e2d087d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 22:26:30 2023 -0700
+
+    Improved Falcon-180B Support
+
+commit 434de3909ea7847dc6d5b4aeba6b85b33b8cbb51
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 20:26:03 2023 -0700
+
+    Azure support
+
+commit 04f0b4a4c4b8fe6c39b49b3ffddda32b8f76939a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 20:11:43 2023 -0700
+
+    Update LiteLLM
+
+commit bdef694ac747498df8251aa5342ad43b17902a3f
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 20:10:45 2023 -0700
+
+    Check for updates
+
+commit f790623d273e898085c15deeddcb5f3eddc34250
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 19:23:34 2023 -0700
+
+    Added back OpenAI
+
+commit 729b8cc0737c9146b8c2e4b9eca5f8ac76448ab8
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 19:15:52 2023 -0700
+
+    Tighten README.md
+
+commit b19746d3cd4d34121a492d199d9dc7d1e0817467
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 19:14:47 2023 -0700
+
+    Swap in LiteLLM
+
+commit 8c2910e536b91b3b476c5d5e9fcf2a669a479874
+Merge: 6a52aad6 e2280ab6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 18:56:02 2023 -0700
+
+    Falcon // Any 🤗 model via `--model meta/llama`
+
+commit e2280ab67a89a368468af17c47faf2c0145facfb
+Merge: 50cfb842 6a52aad6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 18:53:53 2023 -0700
+
+    Resolved conflicts
+
+commit 6a52aad648aabb15d7301a472edc7abc3ff00e7f
+Merge: e9f17b83 64b47351
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Sun Sep 10 00:14:57 2023 +0530
+
+    Merge pull request #215 from ihgalis/patch-2
+    
+    Update MACOS.md
+
+commit 64b47351f788ea72437803084bb3d40161e79886
+Author: Andre Fritsche <andre.fritsche@outlook.de>
+Date:   Sat Sep 9 14:32:44 2023 +0200
+
+    Update MACOS.md
+    
+    A parameter was missing (conda activate wihtout the environment name you want to activate) + some miniconda link
+
+commit 50cfb842f84f4f178ca88eea41d72af2801f2622
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 11:07:33 2023 +0000
+
+    Falcon 180B support // Any HuggingFace model with `—model owner/model`
+
+commit e9f17b83d3a260805d04d5416a6a40178ed2fe05
+Merge: d0e5c159 4ac9c3fc
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 03:52:40 2023 -0700
+
+    Merge pull request #157 from moming2k/feature/cli_environment_variable
+    
+    Feature: add cli environment variable
+
+commit d0e5c15939a001fafa6c98691af0a37c07d70daf
+Merge: 759bcf0d d2194fcd
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 03:42:00 2023 -0700
+
+    Merge pull request #189 from Taik/main
+    
+    Add option to override Azure API type
+
+commit 9e067cc9ae24742d7b005f7ec3e0a14363ce14bc
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 10:15:16 2023 +0000
+
+    Added HF login for gated models
+
+commit 0dc0a847ef055c4b4072a8e62d89c497b70c354d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 10:08:15 2023 +0000
+
+    Use any HF model
+
+commit 0e288800d96421683418c15204b926b3e8b871d9
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 10:05:43 2023 +0000
+
+    Use any HF model
+
+commit 9ccfc8a238680c6121c27e038d484321006c30f6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 10:03:53 2023 +0000
+
+    Debug mode
+
+commit 5e7f76eb8395d28a2ad1e308d28526a5effefbd6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 10:01:44 2023 +0000
+
+    Using any HF model
+
+commit c4a5b0d14291e2a1ddb3bc25233f8a706aeca95a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 10:00:49 2023 +0000
+
+    Using any HF model
+
+commit 6ccb432109e4a754a2b88c47f117a44afa60fed6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:59:14 2023 +0000
+
+    Using any HF model
+
+commit a3e051a25cee6c21493b91937dc9ea7e61016889
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:55:32 2023 +0000
+
+    Using any HF model
+
+commit 194048ab5905755fed372860b01f6dfd9d84dd0f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:54:35 2023 +0000
+
+    Using any HF model
+
+commit a358d669ba40cbac09a53e4b0a4435fe904078ff
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:53:48 2023 +0000
+
+    Using any HF model
+
+commit 38c781c2511f7473cb81535a86b432180d008ef1
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:50:18 2023 +0000
+
+    Using any HF model
+
+commit 106d6edc033c68fcba620785fc535c26c1b6d7fb
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:47:58 2023 +0000
+
+    Using any HF model
+
+commit 02aa0efc56ec7128bcfa1603ed58f0cd3900792d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:44:35 2023 +0000
+
+    Print traceback on local LLM failure
+
+commit 8f572ef49c9094ca003a87c7e1d8e9fc7c861168
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:41:15 2023 +0000
+
+    Using any HF model
+
+commit 1837d9d5379fc40b8fe363574a305bf8941d6921
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:39:56 2023 +0000
+
+    Using any HF model
+
+commit 802741dd948003b72e2e3ba1d40d0056905ea5c4
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:38:33 2023 +0000
+
+    Added huggingface-hub
+
+commit 312f027e35974dc717dfd36c6a44de89ff604ddd
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 9 09:36:06 2023 +0000
+
+    Using any HF model
+
+commit 759bcf0da5606dbdcd8292d455fe209b919a5690
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Fri Sep 8 15:11:07 2023 -0500
+
+    docs: rename MACOS.md and move into docs
+
+commit cb1b8db977c82223bd0d5220b632d0d851023f8d
+Author: Andre Fritsche <andre.fritsche@outlook.de>
+Date:   Fri Sep 8 11:08:53 2023 +0200
+
+    Create MACOS
+    
+    Added some documentation to make this running on MacOS locally with a nice performance.
+
+commit ee22bcdacf0ef66844552ec08fc1373013fec1b6
+Author: David McFadzean <davidmc@gmail.com>
+Date:   Fri Sep 8 14:49:43 2023 -0400
+
+    Update README.md
+    
+    Fixed Apple's stock ticker symbol
+
+commit cd90c15d8d63d022f43a88866a3b9614d87f8bcd
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Fri Sep 8 13:11:09 2023 -0500
+
+    docs: provide issue template link
+
+commit 1f997b92e8c66edb08fc798597f2ce009ef3b107
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Fri Sep 8 13:09:02 2023 -0500
+
+    docs: prevent blank issues
+
+commit 2894ea3f3fd376cd8e2e31285ff4428d6fac32c2
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Fri Sep 8 12:26:18 2023 -0500
+
+    docs: add enhancement label to feature requests
+
+commit b7eb14d7eb8b8c61263f6da66432dfdf6a9871fd
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Fri Sep 8 11:57:03 2023 -0500
+
+    docs: fix example version number for interpreter
+
+commit deb7e9606c474071a25d720c5d81e3a621806fc4
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Fri Sep 8 11:52:06 2023 -0500
+
+    docs: add interpreter version to template
+
+commit d2194fcdf534b6542bb3dde703504a01834bd381
+Author: Thinh Nguyen <tnguyenx91@gmail.com>
+Date:   Fri Sep 8 09:12:28 2023 -0700
+
+    Add option to override Azure API type
+
+commit 2c2da69b27b8dd7a2d7713fd8ade5bbb3e7f5e2e
+Author: merlinfrombelgium <26247323+merlinfrombelgium@users.noreply.github.com>
+Date:   Fri Sep 8 11:57:10 2023 +0200
+
+    Fix download URL for CodeLlama 7B high quality model
+
+commit 609fddfab5ad8baae99d8df429096eb3eab27a70
+Merge: c8e8809f fcb1c018
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Fri Sep 8 16:21:30 2023 +0530
+
+    Merge pull request #182 from TanmayDoesAI/main
+    
+    moved all markdown files to a folder, updated the readme for the same, also updated all discord invite links to never expire
+
+commit fcb1c0183118cc91d89e0d761edd9ead8b2c8b01
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Fri Sep 8 16:19:31 2023 +0530
+
+    moved all markdown files to a folder, updated the readme for the same, also updated all discord links to never expire
+
+commit c8e8809f5d7059a32b276defa639fd5d61612763
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 8 02:49:34 2023 -0700
+
+    Added Windows documentation reference
+
+commit 3924493bb92c4762ab2d1595e6cf5e9f16146786
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Fri Sep 8 03:20:26 2023 -0500
+
+    docs: create issue templates
+
+commit df96731b06ca1e4435dd05acee4fddee61b9b7a8
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Thu Sep 7 12:06:34 2023 +0530
+
+    Update README.md
+
+commit 62c2f2142640c80e118a818bc54190e30cb647e2
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Thu Sep 7 11:41:53 2023 +0530
+
+    Create contributing.md
+
+commit 3bc4bc30006e93e465ca0128b5654a1e74f49025
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Thu Sep 7 15:37:11 2023 -0500
+
+    docs: explain Windows Code-Llama build requirements
+
+commit 4ac9c3fc34e6c548df24adad4a92b7aef9882aaf
+Author: Chris Chan <chrischanauk@gmail.com>
+Date:   Fri Sep 8 02:53:28 2023 +0100
+
+    update README for environment variable update
+
+commit 1d83f4173faf5bd8d19ba7a57a18abbe6c51c001
+Author: Chris Chan <chrischanauk@gmail.com>
+Date:   Fri Sep 8 02:46:44 2023 +0100
+
+    add the environment variable support to cli
+
+commit 07f1cda27fc9e5518b63822e1d6175761ea1edf0
+Merge: c76a3a76 51ab1d09
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 16:01:23 2023 -0700
+
+    Merge pull request #135 from jordanbtucker/azure-key
+    
+    feat: add AZURE_API_KEY that falls back to OPENAI_API_KEY
+
+commit c76a3a76e29a39a039ced7695f596c4bd62eea6c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 13:23:44 2023 -0700
+
+    Added Discord links
+
+commit 8145f7c0099b0445ba9f154a23a67b413da04173
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 13:21:30 2023 -0700
+
+    Linked to @jordanbtucker's GPU.md in README.md
+
+commit db5254ac362445a9e1f96adfafa60388130bbb72
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 13:19:09 2023 -0700
+
+    Linked to @jordanbtucker's GPU.md in README.md
+
+commit c3b008ccc7a4d09861d511559b017ebf15828acb
+Merge: 3b24a6b3 3bc0d3a6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 12:55:27 2023 -0700
+
+    Merge pull request #102 from jordanbtucker/gpu
+    
+    docs: explain GPU support
+
+commit 3bc0d3a69f30b3967826ac70103bede258094c62
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Thu Sep 7 02:02:39 2023 -0500
+
+    docs: explain GPU support
+
+commit 51ab1d09db5ef74cd6948bce6845c072be196025
+Author: Jordan Tucker <jordanbtucker@gmail.com>
+Date:   Thu Sep 7 12:50:26 2023 -0500
+
+    feat: add AZURE_API_KEY that falls back to OPENAI_API_KEY
+
+commit 3b24a6b347d5e8935f6619d7b8218ca0e028b203
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 01:50:17 2023 -0700
+
+    Added Azure documentation
+
+commit 694b60d947b058994db01a200665819ee1946334
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 07:13:10 2023 +0000
+
+    CodeLlama improvements, Azure support, rate limit fix
+
+commit f4a0b1cc8498197470e322f35d422971d1b2c69d
+Author: Maclean Dunkin <macleanemorydunkin@gmail.com>
+Date:   Wed Sep 6 22:34:40 2023 -0700
+
+    Update system_message.txt
+
+commit 2eaeb1451057d6ad9df89261b0c6308dac38c1ff
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 02:51:35 2023 +0000
+
+    Dramatic CodeLlama improvements, Azure support, rate limit fix
+
+commit eb4ed76983aabf513e7068e0bff3b0336da8c598
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 02:48:17 2023 +0000
+
+    Dramatic CodeLlama improvements, Azure support, rate limit fix
+
+commit 3f6a51b77c532e0c9330c94daeec73af6741d860
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 02:25:45 2023 +0000
+
+    Dramatic CodeLlama improvements, Azure support, Rate limit fix
+
+commit c2bae8362b168200cc2c2ef6b212da2806977799
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 02:18:35 2023 +0000
+
+    Dramatic CodeLlama improvements, Azure support, Rate limit fix
+
+commit 1af362c5bda38e890b52133ea0083d4e8f6d4d30
+Merge: 289e235e 6223ee58
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 19:05:55 2023 -0700
+
+    Merge pull request #87 from KillianLucas/rate-limit-fix-and-smart-llama
+    
+    Rate limit fix, dramatic CodeLlama improvements
+
+commit 6223ee58280f57dd0564a79fe267cf1955a2f236
+Merge: c5a1e4ca 289e235e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 19:05:41 2023 -0700
+
+    Merge branch 'main' into rate-limit-fix-and-smart-llama
+
+commit c5a1e4ca1b4dba870898c834df0e93f5a70ac8be
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 02:02:17 2023 +0000
+
+    Updated CodeLlama to CodeLlama-Instruct
+
+commit 5b600334d22793416d99f8a82c75a1c28c33611f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 02:00:02 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit b2565024d5c2ac3efd25cebb6ef27dd3654bc086
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 01:57:42 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit a3baa98190f2fd79509404f023f4ba7f454fe1de
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 01:55:58 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit aa3c60df93b4f24b18df74e3c3918f49dd785f52
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 01:46:55 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit 9fe7ba08dad5785c379f7afa3fd736a1dac4cd53
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 00:59:54 2023 +0000
+
+    Experimenting with CodeLLama
+
+commit abb00751c124db275bf9afeff84b7012d7e76753
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 00:56:28 2023 +0000
+
+    Experimenting with CodeLlama (this is getting good)
+
+commit 8c85dba18b5034b2df5af018dc19228e951a7094
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 00:51:47 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit 5d2c514e7190ea9213acd27b8fe663b57b10c539
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 00:48:21 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit 81fbdb744a08d35c9d0a6411875b6bb2aaaab4c7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 00:32:20 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit 851f70abcd2f12aa5d6f1e24b36a9e068c95ed03
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Sep 7 00:09:52 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit 2a847c1769af2b64877ff5fe0db5176ad25a60c3
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 23:58:07 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit ad716cefeff49649581a2ca8e18fb91803b63fa5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 23:32:33 2023 +0000
+
+    Experimenting with CodeLlama
+
+commit 289e235e03c49141a0c577539aa22c61894c058a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 23:22:32 2023 +0000
+
+    Fixed CodeLlama error where list was being .split()
+
+commit 3d89c47d12b4c83a7f99c3b106b406b8f2cee4ff
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 14:00:22 2023 -0700
+
+    Awaiting Azure documentation until updating PIP package
+
+commit 728b2466047dd4476ac09bf8ccec4392ed8aed35
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 13:59:21 2023 -0700
+
+    Add Azure support documentation
+
+commit 88c684ef8ff54c782a834f614de5b54b736943b6
+Merge: 7a53ba3d 3d135a3b
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 13:41:51 2023 -0700
+
+    Merge pull request #62 from ifsheldon/azure_support
+    
+    Add Azure OpenAI support
+
+commit b3251450c415d7d8dfca974c2ef196e83c438bf1
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 08:05:48 2023 +0000
+
+    Increased CodeLlama context window
+
+commit 8662a489624f2ac32407d6c688715ff2f51d8d0e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 07:56:54 2023 +0000
+
+    Code-Llama prompt template fix
+
+commit dffd07717e1e21034284e14f4abc791c49821efc
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 07:53:20 2023 +0000
+
+    Code-Llama prompt template fix
+
+commit 3d135a3bc30ad1b964457e48caadb71eddc5eeb8
+Author: Feng Liang <feng.liang@kaust.edu.sa>
+Date:   Wed Sep 6 15:38:29 2023 +0800
+
+    add Azure OpenAI support
+    
+    * add a flag `--use-azure`
+    * update Interpreter.verify_api_key()
+    * update Interpreter.respond()
+
+commit 578a47a3b4e5795e099f0dc4dec52d6df949677c
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 07:18:42 2023 +0000
+
+    Code-Llama prompt template fix
+
+commit 49a522434a47b6e897271b77cff2b5b6019b6d78
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 07:14:47 2023 +0000
+
+    Code-Llama prompt template fix
+
+commit 1ce979d1ea9551f2df9a30d061b6c8d8d4959429
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 07:11:08 2023 +0000
+
+    Code-Llama prompt template fix
+
+commit bc7d628cf7bd5200b14e88ee025c765532c8bfd5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Sep 6 07:06:39 2023 +0000
+
+    Fixed rate limit error, now retries 3 times
+
+commit 7a53ba3dad9f7b2e31dac3fbb3162838eb9441c6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 5 14:01:18 2023 +0000
+
+    Released 0.1.0 ✨
+
+commit 4457a79d3df4cdfd89c989c079451b7dff2a5c46
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 5 06:59:08 2023 -0700
+
+    Added early access signup link for Desktop App
+
+commit 75f8030e118c8d2cc0841a76774a503407b2944a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Sep 5 02:45:28 2023 +0000
+
+    Better messaging for CodeLlama install and function parsing failure, improved Open Procedures recall
+
+commit 1e6e5d87711ed976f06dd2e322f732c7232ac95f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 4 21:32:55 2023 +0000
+
+    Per Tanmay, implemented 16K context window for Code-Llama
+
+commit 4f135c89afcc1e4b817e9fc21df7e93be6d6c95b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 4 21:28:46 2023 +0000
+
+    Simplified tips
+
+commit c8678bd0d2cb1cf7bca3c2a6966d5a2c3fa098ac
+Merge: 55a4c2e1 35655d81
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 4 14:20:24 2023 -0700
+
+    Merge pull request #25 from TanmayDoesAI/main
+    
+    Changed model name from 16b to 13b, added tip for gpt3.5
+
+commit 55a4c2e1c63ede21f661887155b43a4360f6bf1b
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 4 01:29:30 2023 -0700
+
+    Added early access signup link for Desktop App
+
+commit 2942564361c133c1cbe2d026f080c5e070715b40
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Sep 4 06:23:32 2023 +0000
+
+    Improved CodeLlama support
+
+commit 0d67747353e636f9b7efd9f3da109e51d68a3ab2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 3 16:46:06 2023 -0700
+
+    Create README.md
+
+commit 193e71209f261149769c1693d76c9b4a9be52ec5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 3 18:08:32 2023 +0000
+
+    Incremented version
+
+commit 85df283bc541de8a41bfaf0bbc5b713be237d2db
+Merge: 5a03f726 d1d9132a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Sep 3 10:43:15 2023 -0700
+
+    Merge pull request #28 from eltociear/patch-1
+    
+    Update README.md
+
+commit d1d9132ac6f27bcbc69a244df7f68d87b81d3643
+Author: Ikko Eltociear Ashimine <eltociear@gmail.com>
+Date:   Mon Sep 4 02:06:26 2023 +0900
+
+    Update README.md
+    
+    avaliable -> available
+
+commit 5a03f726ff3cdf64b0d8734f76b4810a770ccd9c
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 2 23:50:01 2023 +0000
+
+    Fixed KeyError from #21
+
+commit b5f751402846063b231b6b741d50145b61aa1d73
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 2 21:00:09 2023 +0000
+
+    Better CodeLlama error messages
+
+commit 8a247cba336168844d49ff9ecd331ac2a900c76b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 2 20:47:11 2023 +0000
+
+    Open Procedures is optional
+
+commit 35655d8177bf5d14522b7010a09593ad6973a44d
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Sat Sep 2 20:28:05 2023 +0530
+
+    changing the tip
+
+commit 93c279f3da8c5f22b33c13b7500980ff92ef6402
+Author: Tanmay Jain <85993243+TanmayDoesAI@users.noreply.github.com>
+Date:   Sat Sep 2 19:55:12 2023 +0530
+
+    Changed model name from 16b to 13b, added tip for gpt3.5
+
+commit c77b0fcb26a26babbfd2b3f2ed79be33f7ead45e
+Merge: cdcb33d6 d35f2953
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Sep 1 17:53:33 2023 -0700
+
+    Merge pull request #23 from KillianLucas/curl-error-fix
+    
+    Windows CURL error fix
+
+commit d35f295303c6cbb29d5a8061323699abfd38919e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 2 00:52:07 2023 +0000
+
+    Better messaging
+
+commit b4a828bc1c360c4e5c0bf594071ddb1417c8c62f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 2 00:13:47 2023 +0000
+
+    Better messaging
+
+commit 009ee6df8667444f7263a5297dd1e3ab42005e01
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Sep 2 00:07:13 2023 +0000
+
+    Using wget instead of curl
+
+commit cdcb33d67b9a289f27fab038161fcc0fb840bb60
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 31 12:39:15 2023 -0700
+
+    Moved Llama install user prompts to llama_2.py
+
+commit 7132f82e83915ea6bf4fdfc5985ee676041e640e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 30 18:30:07 2023 -0700
+
+    Update README.md
+
+commit ffc03f7199229a909ee41713e52d102db698c0e6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 30 18:24:51 2023 -0700
+
+    Update README.md
+
+commit 810dc11a0cf7501d50e65fdc2b41930666f37266
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 30 18:20:59 2023 -0700
+
+    Update README.md
+
+commit 588573bb081ba16771cdf2e5876a0305e7c322be
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 30 11:55:58 2023 -0700
+
+    Update README.md
+
+commit 1bb7b19eeb4264f0d7b6410409af6f1cdbf31f3d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 30 01:44:15 2023 -0700
+
+    Update README.md
+
+commit f5a4d72b2002fd11a14dfe210b18750046492cbb
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 16:59:12 2023 -0700
+
+    Update README.md
+
+commit 0628c9add2aa8a713056359bc3e51ca7b8c1f0f7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 16:05:48 2023 -0700
+
+    Update README.md
+
+commit a4e259524bc4582e6414ebac08d6c13482967b10
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 16:03:44 2023 -0700
+
+    Update README.md
+
+commit 59318facdd75c98d3866adf077201ab2e9edb5c8
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 16:01:46 2023 -0700
+
+    Update README.md
+
+commit bd2ab592bc6d08b1e5db0122adf9861ab83ca15a
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 15:48:02 2023 -0700
+
+    Update README.md
+
+commit 92aebfa9a4e3677b3cc056eab65e632e28cd8f63
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 15:34:52 2023 -0700
+
+    Update README.md
+
+commit cee7a2e6cced9da1fca516e02e2d001166217b52
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 15:34:16 2023 -0700
+
+    Update README.md
+
+commit d0145a250496e4b5a49981a048bb207552f02950
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 15:29:26 2023 -0700
+
+    Update README.md
+
+commit e4ac60767c84145a14037cf78f4a9bfe13da3e42
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 14:44:48 2023 -0700
+
+    Added demo video
+
+commit 5d6200ee062670f810b8a3b298681e18280846b8
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 10:28:58 2023 -0700
+
+    Use GPT-3.5-Turbo for tests
+
+commit 85894bbbad1e86c7d9bb11e13fd512ef2f99b726
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 10:27:15 2023 -0700
+
+    Test Python 3.10
+
+commit 28cebc15c8d5525939bf61d04638d25632abb8d4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 10:26:56 2023 -0700
+
+    Update python-package.yml
+
+commit 86a29cb54295174a6ea2ad26ed3a93a4b703e734
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 10:26:02 2023 -0700
+
+    Update LICENSE
+
+commit ce6ad0bd3d50e673d4b0747e0eec0f4688e970de
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 10:25:54 2023 -0700
+
+    Update LICENSE
+
+commit d0f94ced7648cf4977b7803f1612c71e43246785
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 10:25:05 2023 -0700
+
+    Update .gitignore
+
+commit 55fe6213686b7f473512e7fdf80091230d0382df
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 10:23:14 2023 -0700
+
+    Update .gitignore
+
+commit 923625b6b52056b7ce9376f67d7a94644c71f7e2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 10:22:55 2023 -0700
+
+    Update .gitignore
+
+commit 15006519e4d0a35ef4c8061c9b77ec83211a3026
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 01:18:57 2023 +0000
+
+    Code Llama
+
+commit d20e80574d785a99c0f72b76adac9a3b0eadf7dc
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 29 01:18:07 2023 +0000
+
+    Code Llama
+
+commit 58d8493d7f69969c6c0c76cf58aa516be9a7691b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 21:26:01 2023 +0000
+
+    Code Llama
+
+commit 8af2c62de9bfd9e28cb9fe8c90800195cc48c905
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 21:25:21 2023 +0000
+
+    Code Llama
+
+commit 9d3611492e8182c2d3a7dfd472ebdbb5db6f0aa1
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 21:22:48 2023 +0000
+
+    Code Llama
+
+commit 8984fee8cd1e5b48c2c96fc58bd9496e5723b13a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 21:20:51 2023 +0000
+
+    Code Llama
+
+commit fb377feef3be7d6b85cf1906a3af87f24e3479a8
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 21:18:45 2023 +0000
+
+    Code Llama
+
+commit 8e7da85cbfb072a3bfe59c44ce5c9c8ffbac737e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 21:13:20 2023 +0000
+
+    Code Llama
+
+commit dee4125b7c9eee11df8dcec9a7afe0d801a9e288
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 21:06:51 2023 +0000
+
+    Code Llama
+
+commit 54a2b9c7eb6ca126eaa63016b564e3680fd0c0c6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 21:04:31 2023 +0000
+
+    Code Llama
+
+commit 4211ad647ec822481b06152422c9a1b7db5a2293
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 20:59:56 2023 +0000
+
+    Code Llama
+
+commit a03dad4349610095129c87bf5eb447dc0fdbbc6a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 20:57:07 2023 +0000
+
+    Code Llama
+
+commit d9718d106040fd6e4fe5554349f6125d10250884
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 20:55:08 2023 +0000
+
+    Code Llama
+
+commit 3c22ad4f21e057d5742a4b911d69c1611db090db
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 20:47:49 2023 +0000
+
+    Code Llama
+
+commit 94bbeedc03c040e105c1214d7838ab1400f1a6b8
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 20:41:44 2023 +0000
+
+    Code Llama
+
+commit b3d651c78d5b36ff83aa1b8fda639b7bd8f8dcb7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 20:32:59 2023 +0000
+
+    Code Llama
+
+commit 1c0c4bea99d18c1ff317b16c3c5b49f9f4a8bcfb
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 20:30:24 2023 +0000
+
+    Code Llama
+
+commit 1e44efdc1b305a2d22a36e47f0a96419d45905e7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 19:31:09 2023 +0000
+
+    Code Llama
+
+commit 9e353f65ada83b12e09f6ad39c54561709408068
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 19:25:32 2023 +0000
+
+    Code Llama
+
+commit f8ca47254690c911d1066186a775222309598515
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 17:30:21 2023 +0000
+
+    Code Llama
+
+commit 574cc6ff2569cd2615f6851063067a453e2a4fc6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 17:09:33 2023 +0000
+
+    Code Llama
+
+commit 43678fd955a1e16c5ae2e0e7f529ae1e080cea7e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 17:06:58 2023 +0000
+
+    Code Llama
+
+commit 87f26cf7de7d80f7635dfe88f429d85022cda122
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 17:05:59 2023 +0000
+
+    Code Llama
+
+commit 5944ebf06fce72e6aa62b089738883949f1cbc66
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 17:04:55 2023 +0000
+
+    Code Llama
+
+commit bf003c5064c71386e3b3217895bf8ff40efc551a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:59:24 2023 +0000
+
+    Code Llama
+
+commit c9cdfb96ce99e63a01b0d175af7752dc9fc5c50b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:55:14 2023 +0000
+
+    Code Llama
+
+commit b1640e159e0f9b0cc26bf0e290804fd21a916ecc
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:46:33 2023 +0000
+
+    Code Llama
+
+commit a62c68f19c4ae4b1770615c57c7c56a316c79bcf
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:41:35 2023 +0000
+
+    Code Llama
+
+commit 1034248a9ca303fadfcb6b9367dc3f40e2fa1d52
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:29:24 2023 +0000
+
+    Code Llama
+
+commit 0dcf5e4a212e7857192eb213d2d5f17cf72d7c89
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:21:03 2023 +0000
+
+    Code Llama
+
+commit ecba9ef4abc42fe1d794e1e3afe5898b0382b261
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:17:51 2023 +0000
+
+    Code Llama
+
+commit e31832909863066f55141ab48fc45217bebffa2e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:11:00 2023 +0000
+
+    Code Llama
+
+commit 6f4b9acc7d48cc92d9a126f94ef492211f0cc8ac
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 28 16:02:19 2023 +0000
+
+    Code Llama
+
+commit 5f8ba4f542e11506e0790ae2191299efb2b2bc1b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 25 16:19:06 2023 +0000
+
+    Code Llama
+
+commit 91c25fa9a06a908363c5a0ddb51a41d7fc2b858c
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 25 16:18:22 2023 +0000
+
+commit 35e94409cb104e664dc99b410d4241e17420538b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 25 03:22:04 2023 +0000
+
+    CodeLlama
+
+commit 6ee99b54f86b9260bd33a981015e12e4ced2de52
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 25 03:09:14 2023 +0000
+
+    CodeLlama
+
+commit a6b1c06856b8be2c5c2bd57de9b38aed69d5a0aa
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 24 00:39:18 2023 +0000
+
+    Improved Messaging
+
+commit 86eb4bf665f270ad45f43a1ab6938b43f1e245cd
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 24 00:36:47 2023 +0000
+
+    Improved Messaging
+
+commit cf775505f7d859a222d20703f3480cf9bf401625
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 24 00:33:51 2023 +0000
+
+    Styled dividers
+
+commit ac8cb56c6a114a15896be2956ed5e5be22dfa9fb
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 24 00:14:41 2023 +0000
+
+    Llama System Message Update
+
+commit 6fefe9666022cb6fd8078defcbd61a6b8f278b52
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 24 00:13:56 2023 +0000
+
+    GPU Experiment
+
+commit 256d551f630fab3ceba66e19fe77cac64a7c4856
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 20:21:17 2023 +0000
+
+    Improved Messaging
+
+commit f476138feb56c451a8b729c506c56dd885f1c4e7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 19:56:10 2023 +0000
+
+    GPU Experiment
+
+commit ede55647054f2afbf288484ec26792122a272c99
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 19:46:10 2023 +0000
+
+    Llama-2 Model Selection
+
+commit a46f97e6608e35213594e6cbbbb8e61d863529a7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 19:15:26 2023 +0000
+
+    Improved Messaging
+
+commit 43ad3c4c847b67838b27ed9599b41e9cc49a5a2b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 19:04:27 2023 +0000
+
+    Improved Messaging
+
+commit 59536e20b7b6bc4cbf343bcabd289d866ae5a983
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 18:56:33 2023 +0000
+
+    Added %debug mode mid-chat, experimenting with Llama-2
+
+commit 1ed362c307b2f6e116d40829f510a0566ef5461a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 08:43:15 2023 +0000
+
+    Experimenting with Llama-2
+
+commit 6b1579951f6a60ae93550429fe317cfab53ec009
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 08:36:22 2023 +0000
+
+    Experimenting with Llama-2
+
+commit eee94a21453dbeef9656f2eadd10315dbdf9e58d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 23 08:34:56 2023 +0000
+
+    Experimenting with Llama 7B
+
+commit 812f51dad541682551a2a2182cfbedc175372ab9
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 21 19:02:15 2023 -0700
+
+    Update README.md
+
+commit e32d8b05c31337483cd9b1773ab3d06b2fe2bbc5
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 21 02:36:00 2023 -0700
+
+    Update README.md
+
+commit 71ffa5e53541e79db33096e29613e7d7ae856005
+Merge: 7e4d2dfc d2c7010e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 21 02:28:58 2023 -0700
+
+    Merge pull request #13 from KillianLucas/KillianLucas-patch-1
+    
+    Update README.md
+
+commit d2c7010eca6103428a03c0d80c689a7e8bb10c81
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 21 02:28:50 2023 -0700
+
+    Update README.md
+
+commit 7e4d2dfcc78a2ce2a5c2995a475ad3232bd8a9a3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 21 02:27:14 2023 -0700
+
+    Update README.md
+
+commit 3272a0124e6cc5bfcdf63cdf32744646b623417e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 21 02:26:41 2023 -0700
+
+    Update README.md
+
+commit ee904242ac9f8c083f4d28f05c8840ab299f63e7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 21 02:00:23 2023 +0000
+
+    Fixed daemon threads
+
+commit f4c307d341ca84d4dac85ab21e61210309f700f3
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 20 17:10:56 2023 -0700
+
+    Update README.md
+
+commit 60c1a1738480a9296973f039b7b4af6741f1f550
+Merge: e06e8b71 ef2e8177
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 20 11:42:33 2023 -0700
+
+    Merge pull request #12 from KillianLucas/killian/development
+    
+    Restored Tests
+
+commit ef2e81775cfb8ba9f97d241290815d5c66caf783
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 20 03:07:59 2023 +0000
+
+    Restored Tests
+
+commit e06e8b7179872fc1190c10b76669d57a35cd5044
+Merge: d145e90c 47ec569e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 19 20:04:42 2023 -0700
+
+    Merge pull request #11 from KillianLucas/killian/development
+    
+    Improved Open Procedures recall
+
+commit 47ec569e4762669c181e306bc956f9e4966ef56c
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 20 02:58:39 2023 +0000
+
+    Working on Open Procedures recall
+
+commit d145e90c600e139bb9b4d56542d2eb0a6efbcb3c
+Merge: 32d67364 9ee2f64d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 19 19:51:00 2023 -0700
+
+    Merge pull request #10 from KillianLucas/KillianLucas-patch-1
+    
+    Add new languages to README
+
+commit 9ee2f64d8ed5cd546fae317dd35e14d32a571b84
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 19 18:44:40 2023 -0700
+
+    Update README.md
+
+commit 32d673644a63b0792e9f434993ebb07ea4a99528
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 10:36:16 2023 -0700
+
+    Update README.md
+
+commit bd0aedaac572a9d629e02c39788e380ad92b37db
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 10:34:45 2023 -0700
+
+    Update README.md
+
+commit d31b4aebaf2b98a3507c5333dd9accc63d9ee769
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 08:37:36 2023 +0000
+
+    Improved system message
+
+commit ed36cd65c65c6c3b8969fb5de6a6c2ee82e280b3
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 07:23:56 2023 +0000
+
+    Working on Open Procedures recall
+
+commit d551ce13ab5574260b4ce2b67f2ead5adedf0ad7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 06:27:27 2023 +0000
+
+    Adds truncation message to pre-truncated text
+
+commit 1d4ea74af105c2dcdc11d6493f53dba402521f69
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 21:53:29 2023 -0700
+
+    Reordered demos
+
+commit 0a3e8a28b8424689bc441cd6c2d1896efd75afe0
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 21:52:46 2023 -0700
+
+    Reordered demos
+
+commit 23009564cfce7401b2ad7f5cc4be89997d47a161
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 21:50:13 2023 -0700
+
+    Added Summarize demo
+
+commit cada11001fae09b893811e52f7255eb369e27a50
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 04:15:04 2023 +0000
+
+    Improved Open Procedures recall
+
+commit 665af76d1b7328872ba64f36d6fddfb672eb8448
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 04:10:48 2023 +0000
+
+    Fixed Applescript output
+
+commit 7c8bc77f06aa466a04e301b328e1fc6e88200f96
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 01:48:40 2023 +0000
+
+    Improved Open Procedures recall
+
+commit 31fe5836fe5c01a4212b9e60c05aae70c7cd5c8b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 01:28:27 2023 +0000
+
+    Improved Open Procedures recall
+
+commit ed2612b0663600d8e326cf7488166fed82cfa125
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 01:25:00 2023 +0000
+
+    Improved Open Procedures recall
+
+commit 1afc24c6baf46bfeabbde4be99af4b3feffaa0b1
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 01:21:03 2023 +0000
+
+    Improved Open Procedures recall
+
+commit 7b9e36244682c25fed5f6002f8f60860bc24c916
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 00:36:42 2023 +0000
+
+    Escape newlines in function calls properly
+
+commit 67a80b85806da27666f11fb8f7c1297a0bd5e963
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 00:27:28 2023 +0000
+
+    Escape newlines in function calls properly
+
+commit 996cfb7dc07096fcd1fc4f367fc62136cc62c9cf
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 14 00:16:52 2023 +0000
+
+    Escape newlines in function calls properly
+
+commit cdf74240f2bb9cc74a706e7656a76833bad24675
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 23:51:04 2023 +0000
+
+    Added debug for function calls
+
+commit 91df073c72aa6dd242f07ad42854339735524f4e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 23:46:13 2023 +0000
+
+    Escape newlines in function calls properly
+
+commit e78856856513db18d3e38fc79b038408b0a0d322
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 21:32:31 2023 +0000
+
+    Fixed refreshing empty code block
+
+commit 045f21551efaee6694c8ea9768abd675075c3856
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 02:35:02 2023 -0700
+
+    Added Pomodoro demo
+
+commit e7d56f9119308bdc2f2191844d82d52f10630ebc
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 09:28:32 2023 +0000
+
+    Readline comes with UNIX, pyreadline3 now installs on Windows
+
+commit cca3a5b8d0a32c92add36336e39861d4cf826865
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 09:19:30 2023 +0000
+
+    Incremented Version
+
+commit d883ef936bb01e0417c14674969d2b2488c7e918
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 02:18:56 2023 -0700
+
+    Windows-compatible readline import
+    
+    Thanks @nirvor!
+
+commit 143b6c79d0d5ee40b2a7bb58c9472b12941f0f36
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 02:17:22 2023 -0700
+
+    Restoring interpreter.py
+
+commit 47fc0a23f4cf82635d1e8f31f6e74e5755a61d41
+Merge: a0071e24 99fc2840
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 02:16:32 2023 -0700
+
+    Merge pull request #8 from nirvor/main
+    
+    Update interpreter.py - windows file system adjustment (will add .toml after this and reinstate readline import in interpreter.py)
+
+commit a0071e24c8190d11539c75c655f9efd3cb28a59a
+Merge: a52156dd 3c2bd5de
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 02:07:49 2023 -0700
+
+    Merge pull request #9 from KillianLucas/killian/dev-test
+    
+    Fix Python interpreter edge cases
+
+commit 3c2bd5de9ad20ba3d099a81cfa7e770d99740dd5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 09:03:39 2023 +0000
+
+    Fixed python interpreter edge cases
+
+commit 5fb40497ded757abfd540c1138795d9b7f0bbe8f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 03:42:19 2023 +0000
+
+    Fixed multiline strings not rendering in realtime
+
+commit 3b1d2b1bef9d71820d209f1ffc92760428e735f5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 13 03:30:44 2023 +0000
+
+    Fixed python interpreter
+
+commit c853ea353fab390ae1d8fce1af7bd3273c2b6303
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 12 19:00:39 2023 +0000
+
+    HTML Support
+
+commit 253c44279e14f5514dabc92f65abbaf29f1c2aff
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 12 18:14:51 2023 +0000
+
+    HTML Support
+
+commit 2ca308626c0767d0d8b79175ff22469a12627085
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 12 18:12:43 2023 +0000
+
+    HTML Support
+
+commit 8f1801a82fec045fe57801394704f82f2927fd22
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 12 18:12:03 2023 +0000
+
+    HTML Support
+
+commit 99fc2840c400855caf1f736d01b43f51e8514c3e
+Author: nirvor <118377825+nirvor@users.noreply.github.com>
+Date:   Sat Aug 12 15:31:45 2023 +0200
+
+    Update interpreter.py - windows file system adjustment
+    
+    Replaced (if/else...) the use of the readline library with pyreadline3 for Windows compatibility. readline is Unix-specific and not working with windows file system, while pyreadline3 provides similar functionality on Windows.
+
+commit 63e92b2b8df3a9ddc2782a8a7632924f5ce113f7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 12 06:11:18 2023 +0000
+
+    Testing Open Procedures URL
+
+commit 7d075f27150987e539010a0cf8bab29b126f8a26
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 12 06:08:37 2023 +0000
+
+    Testing Open Procedures URL
+
+commit 7562c55bcfb8d824d6f72705e14f42740c5761c7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 12 06:05:04 2023 +0000
+
+    Testing URL
+
+commit a52156dd1417eee582cfa26d693f4dba368a3070
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 12 00:58:14 2023 +0000
+
+    Incremented version
+
+commit de0451f5bf1e705c5a334df39a2195830299a031
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 09:18:00 2023 +0000
+
+    Advanced active line tracking
+
+commit 55226282afc7b9f72854b1b39e09265b82295520
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 07:20:58 2023 +0000
+
+    Cleaned up welcome message
+
+commit 5a73246726256697e6d0d1d3ffaede03ca51963d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 07:15:27 2023 +0000
+
+    Increment version
+
+commit 658d60b43525db3ca81266a9104e880f02237e90
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 07:12:42 2023 +0000
+
+    Working on JS support
+
+commit 3bdd39864c5f1c16bb8f6237f06e38065b9cd159
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 07:00:46 2023 +0000
+
+    Working on JS support
+
+commit 117e74030ce19e387ca0cd7306b141bf55e4024f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 06:46:06 2023 +0000
+
+    Improved Applescript support
+
+commit 835a26d140068b65c8a672ea4d7fc4c40ff88ff6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 06:42:57 2023 +0000
+
+    Improved Applescript support
+
+commit d4be207ceede8f9d09ea4db223020239604ea43f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 06:29:50 2023 +0000
+
+    Improved Applescript support
+
+commit 417b7a6694e56c41d1e5e97a07c5c82e2f83c7a1
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 06:25:50 2023 +0000
+
+    Improved welcome message
+
+commit 67d476b1d29afd273c0733c669c09a82278c5840
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 06:24:11 2023 +0000
+
+    Improved welcome message
+
+commit e2ba136d59a456e0712e8cbe679890ac215a3444
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 06:21:32 2023 +0000
+
+    Improved welcome message
+
+commit 69bc3763a9ca88fea024ef30335fdd038554e855
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 06:13:34 2023 +0000
+
+    Added messages for each flag/setting
+
+commit 7b51b325dca8f9309207d52bd5516a2a5ed3016e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 06:00:07 2023 +0000
+
+    Improved Applescript support
+
+commit 749761176b40e82298e6a5a8a9deffe83ace538e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 05:06:41 2023 +0000
+
+    Added --fast mode documentation
+
+commit 0c724d8069d110a5ac2533a4552540a433712bf3
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 04:54:35 2023 +0000
+
+    Encode URL queries
+
+commit f57f52e6638304797ff27eddee04a1de13b73599
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 04:35:38 2023 +0000
+
+    Fixed "procedures" not in JSON error
+
+commit c5811ae2130f7ba89a2d930c87b5864795ba4522
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 04:18:56 2023 +0000
+
+    Improved tests
+
+commit 58cbddb082183c3fa6f07c6834f3e577cb43652e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 10 21:15:53 2023 -0700
+
+    Set fail-fast to true, and for now, only test Python 3.10
+
+commit a486829f7de4699816dd6ff2d5e8f9b56c2d9432
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 04:12:32 2023 +0000
+
+    Tests now run with gpt-3.5-turbo
+
+commit 705f4c20fb8268c8e346919a7068cab8b0f45eb2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 10 21:10:01 2023 -0700
+
+    Use my OPENAI_API_KEY for automated testing
+
+commit 7c4aa1ed4c42bc0cc423edaae0a5f77dfa83fe1d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 10 21:03:48 2023 -0700
+
+    Removed python 3.9 from automated testing
+
+commit a8e3714eaba82c3c7b27c0bee5df06e17749c188
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 04:03:09 2023 +0000
+
+    Added Pytest dev dependency
+
+commit 535421fd1584bf61e2b4b68a0c9dfe5fab4b6040
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 04:01:52 2023 +0000
+
+    Added Pytest dev dependency
+
+commit 36b796e218a0f1bec2961b9c705760960e0c28a1
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 10 20:59:25 2023 -0700
+
+    Github action to test releases
+
+commit c5a016d6d537932e74c36e8f0ced6e507d6c15fc
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 03:51:21 2023 +0000
+
+    Improved tests
+
+commit 5932cf321cb64d1d870d66b6d7ac86fef93523b2
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 03:50:02 2023 +0000
+
+    return_messages now works for non-interactive chats
+
+commit 9b3401ae00dc8a2293da83413651a24e821513f7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 03:28:41 2023 +0000
+
+    Fixed Try/Except blocks, added --debug mode
+
+commit aa470853ede08da6d98f82c2341dc276d386e32d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 11 01:56:07 2023 +0000
+
+    Fixed horizontal overflow
+
+commit 1217e7b49ea100b83ccb4e4b65ab6ce9abdad71e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 10 00:27:12 2023 -0700
+
+    Improved README
+    
+    forbidden_commands no longer supported
+
+commit fb20901004cafed11bc536973d5890d634ddf6c9
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 9 11:26:47 2023 -0700
+
+    Added drag-and-drop demo
+
+commit 6f6ef2034ec18b91e721964c94af06dd22bda82b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 9 17:49:19 2023 +0000
+
+    Use platform.system() throughout
+
+commit c3c41f86880f36ac8f4ae1945872b0b748061752
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 9 17:48:02 2023 +0000
+
+    Use platform.system() throughout
+
+commit 532dc6a054d9038661d114b006dd989b6bf73f65
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 9 17:37:57 2023 +0000
+
+    More open procedures, better active line tracking
+    
+    Get procedures relevant to last 2 messages, exit from more breaking cases in add_active_line_prints (multiline bash, multiline lists in python)
+
+commit 24fb69a91b8f7a971941b5905bcc776e149a363c
+Merge: 2ed78126 22d5b019
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 8 02:23:36 2023 -0700
+
+    Merge pull request #2 from nirvor/main
+    
+    Update interpreter.py for multi OS request
+
+commit 2ed78126473d3e4adaf97d38268f07e66080d9ef
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 7 21:39:12 2023 +0000
+
+    Added --fast mode
+
+commit e864b79518e02550d0bd563d87ea5cd92936714a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 7 21:30:30 2023 +0000
+
+    Added --fast mode
+
+commit 22d5b0192babf5981d5f06682e606af675aa3484
+Author: nirvor <118377825+nirvor@users.noreply.github.com>
+Date:   Mon Aug 7 21:05:00 2023 +0200
+
+    Update interpreter.py
+    
+    for os request at different os (linux,win,mac...)
+
+commit 5dc0d3ba87bdb7d1836b2118e7274b13d64bc746
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 7 17:49:00 2023 +0000
+
+    Removed faulty active line tracking to python code that contains triple quotes / try clauses
+
+commit 087249bb96695606925973896a02ea95bfeb0134
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 7 17:40:10 2023 +0000
+
+    Improved system message
+
+commit 1b9fd844250231e809d753cfec9ea1cafdfb9ab5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 7 17:20:51 2023 +0000
+
+    Multiple Procedures
+
+commit aed4d92cfdb8dad6c468595653fa142dd8955689
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 7 17:13:09 2023 +0000
+
+    Improved system message
+
+commit a9acb0aa5cd65f6caff97f936179d3f4af339157
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Aug 7 01:04:00 2023 +0000
+
+    Compiling errors now bubble up to code blocks
+
+commit 5b57d6735722884fe2ea7699c0b1782ea1b608cf
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 22:01:58 2023 +0000
+
+    Experimenting with Llama-2 support
+
+commit d32889d8537b9570e32f570ffebef6bd2f5c3126
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 21:28:09 2023 +0000
+
+    Experimenting with Llama-2 support
+
+commit 3badaf2a507de6accb005995da12b6292587c99a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 21:26:35 2023 +0000
+
+    Added cursor
+
+commit 43632d7a0a646fcf08d59f962e691111472e1362
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 21:00:07 2023 +0000
+
+    Experimenting with Llama-2 support
+
+commit d7580b607f594481c319e19df2f7d2b95786e930
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 20:17:26 2023 +0000
+
+    Experimenting with Llama-2 support
+
+commit 7100d3b5a0288fcb4158576937ad36c93b2c1a8b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 09:12:08 2023 +0000
+
+    Fixed system_message.txt import
+
+commit 7d78696a5b54cc5bad1b47303dc4284a0a914510
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 09:08:20 2023 +0000
+
+    What are these??
+
+commit 7fa1fd93a28a88a89f6107a6a406e6daaf82e650
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 09:05:43 2023 +0000
+
+    Experimenting with Llama-2 support
+
+commit 21abd5695361749752721803c2bb07affd6007da
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 05:40:14 2023 +0000
+
+    Improved system_message and function to add relevant info to it
+
+commit 9e9bdce87db3e1cb0ef4edfee1be8773964d8363
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 05:27:22 2023 +0000
+
+    Added comments and docstrings
+
+commit 987b94cf504cfd70635e2fdb3ea76777597af258
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 01:52:49 2023 +0000
+
+    Fixed utils function names
+
+commit 0051e1935d8345d8020316f9fdca4139de9fd91e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 01:49:29 2023 +0000
+
+    Created utils
+
+commit cb86b280084f4be6d42d97ac18751de1df328c58
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 01:42:12 2023 +0000
+
+    Created utils
+
+commit dff44a49e752a3cc589390b7ccae7035f522f0d9
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Aug 6 01:18:48 2023 +0000
+
+    Improved code confirmation interface
+
+commit b9c94a3ec855c3d1a1cfb34fa301139896352a50
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 21:03:08 2023 +0000
+
+    Incremented version
+
+commit 9be5b540063db892bd25df5582c5b0f3758e445f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 21:02:29 2023 +0000
+
+    Properly located system_message.txt
+
+commit a49b93f4d7733a43c52a50f0bf07f3dd52b17071
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 20:49:56 2023 +0000
+
+    Incremented version, fixed forbidden_commands
+
+commit 6994f39f32e42225fe4e3e26fd177ebbd1ba6705
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 20:30:55 2023 +0000
+
+    Incremented version
+
+commit 52a865dafaac3afc8e39434c224c9d9db77f2f08
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 20:29:51 2023 +0000
+
+    Added comments, cleaned code, improved error messages
+
+commit aff013c58bed24e7bfdea9933febc837bedb9332
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 19:49:34 2023 +0000
+
+    Moved CLI into Interpreter
+
+commit 9337bd280f19ad86f45bb50468971feabcba9421
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 18:56:05 2023 +0000
+
+    Better code parsing, disabled active line display for Bash
+
+commit d95a3865e45bfede6012f3a766cbe31c171d2141
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 10:07:37 2023 +0000
+
+    Separated View from Model
+
+commit 3db0071303c3825fc0411be4076c1e307332c604
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 07:13:14 2023 +0000
+
+    Implemented CodeBlocks and MessageBlocks
+
+commit 6730394997726a6bd9d7ae9900bb30d394ff632e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Aug 5 03:03:44 2023 +0000
+
+    Implemented code_interpreter, generalizes to multiple programming languages
+
+commit a81b980c4193b18facd6afe39364908689617f6b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Aug 4 06:25:42 2023 +0000
+
+    Added /tests
+
+commit e799b82c0304333727a34197f579d2b0966bf945
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 3 21:40:42 2023 -0700
+
+    Update LICENSE
+
+commit 59c0cb4208be5d7b0eea73f410acea95da9be6ee
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 3 21:40:35 2023 -0700
+
+    Update LICENSE
+
+commit 54c437289bb0de2350f3e0474847603eb8addbf1
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 3 21:40:09 2023 -0700
+
+    Update LICENSE
+
+commit a240b458da720268958b8a6833263680703844b4
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 3 21:39:43 2023 -0700
+
+    Update .gitignore
+
+commit b55730c1f8e4e3c7f07c0903af51660740e665f6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Aug 3 20:01:15 2023 +0000
+
+    Now uses TokenTrim
+
+commit b4ff51b1711d34bf12c073adfc9ed2397c9bceab
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Aug 2 00:14:47 2023 +0000
+
+    Improved system message
+
+commit a19a133686cd642c0689ee0f1988b48ab5befd20
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 1 17:01:14 2023 -0700
+
+    Update README.md
+
+commit f502dd93a233e23d724de4c29021265dea4d3ff6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 1 16:58:49 2023 -0700
+
+    Update README.md
+
+commit 86aeec22e5a23b89a479d97afe51840ec977b429
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 1 22:42:49 2023 +0000
+
+    Improved System Message
+
+commit bde5ab4898b268e654dfb82edbe335ee550810b9
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Aug 1 22:34:20 2023 +0000
+
+    Improved System Message
+
+commit 8caecbac132111a91e8ec4136113b327f32dec1a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 30 19:07:20 2023 +0000
+
+    Improved approval request message
+
+commit 405789000d856ef5f5c4b695e251c3e0813ddb2f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 30 18:09:33 2023 +0000
+
+    Updated README
+
+commit 00470eade8e6fc4069545b7e1e047b55536c77a8
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 30 18:03:57 2023 +0000
+
+    Improved welcome message, changed --no_confirm to -y
+
+commit df3ed86577ec89df794296721f5c68e719e0e46d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 30 17:16:58 2023 +0000
+
+    Added Applescript to system message
+
+commit 2b94a50052af8848ae6e5e5d269c4ab85a10f108
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 11:28:23 2023 -0700
+
+    Update README.md
+
+commit 87282b0668780964816af4358a34341364c06c19
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 11:27:28 2023 -0700
+
+    Update README.md
+
+commit ebecfb655388d453be79685071fe29a8bff40ac7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 11:26:42 2023 -0700
+
+    Update README.md
+
+commit 7eb86ec9a9c32f988a7491bb31d913446adf7a04
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 11:23:45 2023 -0700
+
+    Update README.md
+
+commit fde51718bc6693b84d2cd11b02e77b930351855e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 18:22:08 2023 +0000
+
+    Improved README
+
+commit 6e1492786c61823e9f1aa436b7c9267d977ab9e7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 18:17:22 2023 +0000
+
+    Separated CLI from Interpreter
+
+commit 8b4d87c809b6a5741228eb25b2dda95546134986
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 04:13:33 2023 +0000
+
+    Incremented version
+
+commit e00b869444bd8f9e07c46295156c18b90c29d1ad
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Jul 25 19:39:55 2023 -0700
+
+    Documented `--no_confirm`
+
+commit 592fd8fb61d669cc7b929ae91f9c2d2624a59dcd
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 02:25:52 2023 +0000
+
+    Renamed `auto_exec` to `no_confirm`
+
+commit e7154ab2ea8b7470374c4bc52fe77c248cbace4e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 26 02:18:02 2023 +0000
+
+    Added `—auto_exec` flag, the inverse of `safe_mode` (which is now default)
+
+commit dc5f19d0beb39a70140eb27e7487a927295ad4f7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Jul 25 06:33:20 2023 +0000
+
+    Added `ffmpeg` to preferred packages
+
+commit 0a4f7ea47ef9c0379b5b435bfdfba9326107bcd1
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 24 23:26:14 2023 -0700
+
+    Update README.md
+
+commit d92d0134d0b297d5dda26e71879f7786c9a64d11
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Jul 25 06:11:43 2023 +0000
+
+    Added --safe_mode
+
+commit 99f6fc099766ad6033b66085bf1f5bc82bfb395d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 24 05:20:10 2023 +0000
+
+    Use previous messages with up arrow. Terminal behavior
+
+commit 660312f8b05704b0d032b14bdfad4e01046e10dd
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 24 05:10:37 2023 +0000
+
+    Fixed 'assert self.body is not None' for Markdown tables
+
+commit bb238e75c482fbbb40d6273132c7522c556ad453
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 24 03:07:05 2023 +0000
+
+    Added interpreter.forbidden_commands
+
+commit 777f7740654b95a473c653969138e5b676c2342f
+Merge: 09a3bd67 79e38c02
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 24 03:05:17 2023 +0000
+
+    Merge branch 'main' of https://github.com/KillianLucas/open-interpreter
+
+commit 09a3bd67e60dbc77e24399369bbb8918419d4f0c
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 24 03:04:38 2023 +0000
+
+    Reset README
+
+commit 1ed6100b9b24747529ecbd40f0ee1377d1e6e5dc
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 24 03:02:33 2023 +0000
+
+    Added interpreter.forbidden_commands
+    
+    `interpreter.forbidden_commands` is a list of commands disallowed by default.
+
+commit 79e38c027f41f3c8f315ff654f860f8544684555
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Jul 22 09:23:38 2023 -0700
+
+    Delete test.ipynb
+
+commit 14343153b776b4dc788ce3d27bb55892faa3cbf2
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 21 14:55:17 2023 -0700
+
+    Update README.md
+
+commit 7216770da083f14c47eeeb7e35dd2d3fd5b82b02
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 21 09:18:39 2023 -0700
+
+    Update README.md
+
+commit 18a547ed1204d5960e84cb93f2a15b734b634e25
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 21 09:16:19 2023 -0700
+
+    Update README.md
+
+commit 761115cb2442f25c9e2a4573c06df867d02c20d8
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 20:07:45 2023 +0000
+
+    Restore last node interactivity
+
+commit f1898414e0141eaf1431a5cdb73a469c750e1ada
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 19:07:41 2023 +0000
+
+    Fixing outputs not showing
+
+commit 3d6b5b971cf579e9b345e3d4df0a5b98db9a146d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 18:56:15 2023 +0000
+
+    Debugging outputs not showing
+
+commit 3d5c3c4773af435dd42b05fc2a3ab47b46b358ed
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 18:53:19 2023 +0000
+
+    Debugging outputs not showing
+
+commit 65dbb482ab990164c81263330075c8e6e2a612c4
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 18:39:56 2023 +0000
+
+    Jupyter error — testing removing ast_node_interactivity
+
+commit ea14a80a5267caf2a202eccde12e913e7a23377f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 09:19:01 2023 +0000
+
+    Relocated banner
+
+commit b8135d1f28709df04ae1b7ab6749b3f0370ec061
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 09:17:50 2023 +0000
+
+    Relocated banner
+
+commit c95eba2c2c4c7586eb8bbd915d496548bde66554
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 09:15:15 2023 +0000
+
+    Restored Banner
+
+commit a180d385ec032766e926f72863c65a72f0383ba7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:25:22 2023 +0000
+
+    Removed /misc
+
+commit f9facda7f18a6ee52f196ceb61e9221d61900b8f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:25:13 2023 +0000
+
+    Removed /misc
+
+commit a6f1ef0a8d7cae8c73be1a99e6cc3ae853ff27df
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:23:50 2023 +0000
+
+    Deleted test.py
+
+commit 1460b3f758d6f2c9a82d3627816551e96bc5a87b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:23:20 2023 +0000
+
+    Remove __pycache__ from interpreter directory
+
+commit d82878ee71762718fa7c68d0564197149f3691c0
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:21:23 2023 +0000
+
+    Remove replit.nix
+
+commit 2fe0e739d78ec6566c573799dcd7a34ab37ed058
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:21:16 2023 +0000
+
+    Remove replit.nix
+
+commit d2de49034447700974002d84c45f90ec19b232a0
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:20:12 2023 +0000
+
+    Updated .gitignore
+
+commit 51854624a647c7eaae6e3e29db1424f3bf026589
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:19:54 2023 +0000
+
+    .gitignoreds got ignored
+
+commit 578fd5a1b0b299fa20a397f2666bfebae839f0d4
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Thu Jul 20 06:14:23 2023 +0000
+
+    Added .gitignore
+
+commit 1020e5c9c4f28c3e10a463d5b323586631d3302c
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 13:44:59 2023 -0700
+
+    Update README.md
+
+commit 6a5018b028f00bb7491d223484469af41e3d3b67
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 19:52:47 2023 +0000
+
+    Strip user messages, updated experimental system messages
+
+commit 3702b06c2e37cc37a808b64d24658ee8ebf7baf1
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 17:33:50 2023 +0000
+
+    Set shell.ast_node_interactivity to none so we can handle it on our own
+
+commit f9ca5e8ecc2df3ee97054793268dd5e83518cd2d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 17:26:21 2023 +0000
+
+    Improved system message, split experimental system messages into new documents under /misc
+
+commit db42e993b15625d4ae10b69cbc7aea8d8ec0a127
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 07:57:01 2023 +0000
+
+    Improved system message
+
+commit 0ee211e0c358700f312a1e700c21772a09f6f13b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 07:55:11 2023 +0000
+
+    Improved system message
+
+commit b9ae7db54255b531859207f6f273f44b21911db0
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 07:50:53 2023 +0000
+
+    Updated Live refresh speed in exec.py
+
+commit c0f682412a0991e0c5f0ee9e6704965598121cbe
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 07:46:27 2023 +0000
+
+    Changed exec.py's Live to update automatically to prevent recursion error
+
+commit 93a9230af3d6c0e82ad22217d91269cb4b55d8fe
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 07:37:14 2023 +0000
+
+    Fixed OpenAI API key error
+
+commit 0754a5b04111a05c626837210abd86c8ec412f7b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 07:14:50 2023 +0000
+
+    Adding unit tests
+
+commit 499652192f840a5504650511c1403edf62c080fd
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 07:05:54 2023 +0000
+
+    Added comments
+
+commit fa01874aa9b82024084a0bc356e69aa6effd521f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 06:54:58 2023 +0000
+
+    Moved system message scratch sheet
+
+commit 04b0cbb9c65996b1ad7a7cf99a3551c63555db4a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 06:29:19 2023 +0000
+
+    Removex experimental_system_message feature
+
+commit e33cb26ec849abe0572b0ab380bda10c576a724e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 06:28:02 2023 +0000
+
+    Fixed experimental_system_message.txt import
+
+commit 0eec6fa4b96c87b850f3787e99963853b865dd99
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 05:03:52 2023 +0000
+
+    Improved system message, added experimental system message
+
+commit 7e96dbd99197cf7024d1777143812b0e81095e64
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 02:41:47 2023 +0000
+
+    Asks for OpenAI API key instead of throwing Exception
+
+commit bc8400b385b05c072de687af6e240504d7b13720
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 00:29:59 2023 +0000
+
+    Updated truncation message
+
+commit 9d2fc4cbc2eb2f379a9ca94bbebd8d97d38e3684
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Wed Jul 19 00:11:52 2023 +0000
+
+    Improved system message, added interpreter.max_output_chars control
+
+commit 12aab61885b5687d16c12be805fc63777c521615
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Jul 18 19:24:14 2023 +0000
+
+    README
+
+commit d07aca4033bc4844e9f01e19a904fa63ccda4f55
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Jul 18 16:43:57 2023 +0000
+
+    README
+
+commit 3ecf4ee0e8db88de4bafccbb8d76778917bb2fbd
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Jul 18 06:18:56 2023 +0000
+
+    README
+
+commit a5213d74e5a51db4bac34cfa83d6b148b0bba9ea
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Jul 18 02:38:24 2023 +0000
+
+    README
+
+commit 822d74ab4de974e4585d0e6e751cd75b7c15dca4
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Tue Jul 18 00:27:59 2023 +0000
+
+    'exit' or 'exit()' will exit interpreter
+
+commit fec2f735454fcb4c3276d13145c60fdbca3eb882
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 23:44:58 2023 +0000
+
+    Prefer yt-dlp
+
+commit e4c03600d43505216085e1b7f2b416fa0580be1e
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 16:31:17 2023 -0700
+
+    Update README.md
+
+commit 49a24dd5fd004b36b43e368f7ebf5d3bff1d2297
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 16:30:12 2023 -0700
+
+    Update README.md
+
+commit bed6e1eba2e499317965308589c7ca89346b1dfa
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 16:27:27 2023 -0700
+
+    Update README.md
+
+commit b547b5ed1c44cf5ab55607ae17136506641e125d
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 16:24:05 2023 -0700
+
+    Update README.md
+
+commit de40ec7b15a171dde3ba03afb469b092a6f3e495
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:30:17 2023 -0700
+
+    Update README.md
+
+commit cfe4b430060edd1d0d2a7a59789c022400945938
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:29:53 2023 -0700
+
+    Update README.md
+
+commit 645573c03620009a7a08460be91d3bfb6f8189f0
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:28:09 2023 -0700
+
+    Update README.md
+
+commit 576f88a03e2aeefd82a72967a7da7a7dd7526dc5
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:27:01 2023 -0700
+
+    Update README.md
+
+commit 7b89421c3d4a385b41a62089abfdbfbda5083de7
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:25:31 2023 -0700
+
+    Update README.md
+
+commit dce9d42ac6e531f24bc783ee3318f07adca02a0f
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:20:26 2023 -0700
+
+    Update README.md
+
+commit 04da672db4f32250e902aff3e4ab929f4895abc6
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:17:04 2023 -0700
+
+    Update README.md
+
+commit 261aa0a55e4e403e29f2b4475ee9f25d50ced8bb
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:16:28 2023 -0700
+
+    Update README.md
+
+commit c6af29ecdb1576f8481ebc38cdca4c03d9aaa661
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:15:50 2023 -0700
+
+    Update README.md
+
+commit 98fa755627b5a8292c9fcf9e8602cff52cd6ad6f
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 15:14:53 2023 -0700
+
+    Update README.md
+
+commit 8e97931635504726923721986fa20e0b3055bebe
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 21:16:10 2023 +0000
+
+    README
+
+commit 02872950fbb8077d2c00979390a9b513f10a5d1f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 21:15:06 2023 +0000
+
+    README
+
+commit 5556cec2b90b53022ac4dd0d4410b80bd5a95d75
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 21:13:21 2023 +0000
+
+    README
+
+commit 51bcca64b139fe33c95877e3ac1c0c48587b0a86
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 21:09:21 2023 +0000
+
+    README
+
+commit bde0a2d0d8bb819ffd326e91aec47a8ceecfbb81
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 20:57:03 2023 +0000
+
+    README
+
+commit 0d4684de8789dbbb1e3a19c2486fab8ead83b6fc
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 20:39:39 2023 +0000
+
+    README
+
+commit 7fe7327fca54a3c5b7d64eb555fd12196eaa507b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 20:32:38 2023 +0000
+
+    README
+
+commit 667e2aa0861d05b11937305771a48930d3aac73a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 20:29:28 2023 +0000
+
+    README
+
+commit 7187412f14260d82011abd5655c5b8d89361172e
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 20:22:28 2023 +0000
+
+    README
+
+commit 078647d66b5914fc99d8d72361b60115fed857e1
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 20:21:12 2023 +0000
+
+    README
+
+commit 8b1a3b0ee6e593f3f279186ebc5f0f64dee32c97
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 20:05:56 2023 +0000
+
+    README
+
+commit 440aaeab2cd6e95097d35bf5c08865580d9e5ca5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 19:58:39 2023 +0000
+
+    README
+
+commit b38c0a9ff6502aeec25287a5739a202d6a38311a
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 19:30:40 2023 +0000
+
+    README
+
+commit e08a8a729df5fb6b9677ee831687255c180514e5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 19:24:16 2023 +0000
+
+    README
+
+commit 199f00f3a897edf61e8bdc381c55596c2a9862ca
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 19:15:18 2023 +0000
+
+    README
+
+commit 00c71402a6693356a54e996ea458718bb93fcd68
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 19:10:20 2023 +0000
+
+    Improved README
+
+commit e72399b63e1d5172483070c1670affc5b2057d9f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 18:15:09 2023 +0000
+
+    Improved README
+
+commit 7b3e32d9543162d71ca0221ac1edf337354f0fc5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 07:42:56 2023 +0000
+
+    Improved README
+
+commit a213e5deffab84fe0ce39fb4f5700ad2eb9860b4
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 07:38:09 2023 +0000
+
+    Improved README
+
+commit 247e1fc6acc12d4eacb52f38adc85c28dc05f33d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 07:34:54 2023 +0000
+
+    Added Terminal Quickstart
+
+commit abf07cdd8b9bf2f96a68d7309c2f82e6503e6175
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Mon Jul 17 00:56:12 2023 +0000
+
+    Fixed CLI
+
+commit eed91c3c9de36135d6c2db4cb886fe6212d8e89d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 23:55:30 2023 +0000
+
+    Explained CLI fix
+
+commit 9ed27189f47be0a52ec2eddffc7cfed7633cbe03
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 23:54:38 2023 +0000
+
+    Fixed CLI
+
+commit c1362e1d257cfe2122a7bec30b5e6e3d0ece1a45
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 23:42:53 2023 +0000
+
+    CLI testing
+
+commit 9fc904c377caeda6b98775fee36d14f87c5210c5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 23:31:55 2023 +0000
+
+    Created tests, created cli.py
+
+commit d57e5d0781983dadcca29f1d1b47f697474b7b19
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 23:26:29 2023 +0000
+
+    Deleted old banners
+
+commit 10987e38063b1dfa15dad67e98f6de96538cfc2d
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 22:54:59 2023 +0000
+
+    Minor changes
+
+commit 26d1aa670dc4b648a2ac60e5b20a2b9be4dbdfd6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 22:49:31 2023 +0000
+
+    Space
+
+commit 7c9f89ac86dd30b11ce6b6b979b85c0008051886
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 22:49:06 2023 +0000
+
+    Added space
+
+commit 77fbc5a4fb678e093152120a522b3953fca92ac5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 22:47:17 2023 +0000
+
+    Subtitle
+
+commit 001e5a4316f523611c960ffb2727ca2d408f54b1
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 22:44:30 2023 +0000
+
+    New banner
+
+commit e231f9f9f4f3a8a4f029c3c5c9f91645689e5040
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 21:52:02 2023 +0000
+
+    Relocated Banner
+
+commit 7a446a8cb015680cb54c2b3ea7414411ad58a702
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 21:51:34 2023 +0000
+
+    New banner
+
+commit 551f632efdd02175c5bf809e7a20832adfcee9b5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 21:23:14 2023 +0000
+
+    Added new banner
+
+commit bcabff0cdb22bb560b9617b059c720c049dcccd6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 21:20:50 2023 +0000
+
+    Added banner image
+
+commit 03476a5006f34380b86f315b40f1bc6f78ef3594
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 20:47:13 2023 +0000
+
+    Incremented version
+
+commit 9bd444a53de48919fa14f9c13f7c1e9f0382d047
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 20:40:16 2023 +0000
+
+    Moved unused_copy.txt to /misc
+
+commit c3f27fd463b362fdc7d1313a8e745dd24957acbf
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 20:39:23 2023 +0000
+
+    Improved README
+
+commit 54a99230a425c36159d0cd3724e6ba8c3e504522
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 18:07:10 2023 +0000
+
+    Working on the README
+
+commit e388388825af79987adacc70a62bc871ac5eef42
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 09:32:44 2023 +0000
+
+    System message now asks for progress updates when running for loops
+
+commit e9c08b53ef966f37d580c05caf8410722b7cc99c
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sun Jul 16 08:29:14 2023 +0000
+
+    Added isatty() to exec stream, which should prevent some errors
+
+commit efc486450c97475a00c47660b132eacc27eb2d6f
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Jul 15 17:55:44 2023 +0000
+
+    Temperature control
+
+commit 4fed451acf72c3cab471aac677aff22de101bc98
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Jul 15 09:29:24 2023 +0000
+
+    Now starts chat in the terminal with "interpreter" command
+
+commit 98a11ae49d0bfa51b678b099c15b126521496191
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Jul 15 05:03:55 2023 +0000
+
+    Changed file to f (embarrassing)
+
+commit 9b634df1dd3205537bd2ec5db796923b8e74c416
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Jul 15 05:01:50 2023 +0000
+
+    Fixing system_message.txt import
+
+commit b11051e16270f7915b3f6103c0f6188b1b8877d6
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Sat Jul 15 04:45:42 2023 +0000
+
+    Using Astor instead of Astunparse because of an error with Astunparse + Path to system message fixed
+
+commit d89b16f418fe0a147c7c34fa1e581968bdb02579
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 23:17:07 2023 +0000
+
+    Created / implemented system_message.txt
+
+commit 9eb387016cabbf862c829f5156ed60c61caea13b
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 23:01:13 2023 +0000
+
+    "None" and "" output handling
+
+commit 816412c7d004de0507300fa1077a4a3700f3cf23
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 22:58:41 2023 +0000
+
+    Better "None" outputs handling
+
+commit 6bf7eef0ecc42b82a5dba8fb4efcbd9fd64c1246
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 22:40:47 2023 +0000
+
+    No change
+
+commit 33893fd37f135ab93ace06c34542996a9ee2313c
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 22:01:10 2023 +0000
+
+    Strip outputs before detecting if they're "None"
+
+commit 810e749a3fbab03f3ec4ee9a0c091f493c4ed072
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 17:48:51 2023 +0000
+
+    Will not test interpreter from the interpreter package dev environment in the future
+
+commit 83f682a5a26bd4159ccf37ec220849f6acc9f0b4
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 17:42:21 2023 +0000
+
+    None outputs now get removed
+
+commit 6a869bb55186d478b508a6cc47ac7ccb52a0c420
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 17:36:16 2023 +0000
+
+    Increased truncation amount and added a newline to the truncation message
+
+commit 4920adab82d2c77fa378517228fa2c22a17d75d5
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 17:34:33 2023 +0000
+
+    Now truncates outputs and removes ANSI escape sequences
+
+commit fb72c2a6b358971d32a898716f38dab244ea12de
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 17:03:23 2023 +0000
+
+    Clean ANSI escape sequences from terminal
+
+commit 577d69b8c801f29086d2647382aacd6104dcb7c7
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 08:56:57 2023 +0000
+
+    Updated License
+
+commit b8f3ee5c9c6a58df1cd159d144ed20e8dd229302
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 08:56:17 2023 +0000
+
+    Updated README
+
+commit 5ada8c7e59c13abf4a32f89b0a90455e9ad0a2a2
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 08:53:25 2023 +0000
+
+    Expose instance at the module level
+
+commit 6a5087b8dc0b96433bf66b05544be0779187bbcb
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 08:10:48 2023 +0000
+
+    Incremented version
+
+commit 5d749cd3ba55a24c96e307a87c80d7bc33ff46ef
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 08:10:05 2023 +0000
+
+    Published package
+
+commit 1ea206bfbe015b36709caa1c7e4e07b2be054c72
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 07:40:29 2023 +0000
+
+    Uploaded files
+
+commit 2dc27a2c69640e40c5f3e185a9679f1e8f9fcc99
+Author: KillianLucas <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 07:13:41 2023 +0000
+
+    Setup replit, created interpreter folder
+
+commit 31d4ffb827333f05cbfe59ee112c91e74ef9de14
+Author: killian <63927363+KillianLucas@users.noreply.github.com>
+Date:   Fri Jul 14 00:10:44 2023 -0700
+
+    Initial commit
