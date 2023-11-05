@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gpt-auto-ig"
+version = "0.1.0"
+description = ""
+authors = ["jiaqiwang969 <jiaqiwang969@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gpt_auto_ig"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.28.1"
+discord = "^2.3.2"
+pillow = "^8.3.2"
+pyautogui = "^0.9.52"
+osascript = "^2020.12.3"
+debugpy = "^1.8.0"
+python-dotenv = "^1.0.0"
+opencv-python = "^4.8.1.78"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
